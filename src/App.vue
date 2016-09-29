@@ -6,10 +6,12 @@
       <div class="vux-demo-header-box" slot="header">
         <x-header :left-options="leftOptions" :transition="headerTransition" :title="title" @on-click-title="scrollTop"></x-header>
       </div>
-      <!--default slot-->
+
+      <!--Main Content slot-->
       <router-view
       :transition="'vux-pop-' + (direction === 'forward' ? 'in' : 'out')"
       ></router-view>
+
       <!--bottom slot-->
       <tabbar class="vux-demo-tabbar" icon-class="vux-center" v-show="!isTabbarDemo" slot="bottom">
         <tabbar-item v-link="{path:'/'}" :selected="route.path === '/'">
