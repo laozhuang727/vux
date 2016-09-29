@@ -1,2 +1,5 @@
 build/*.js
 config/*.js
+src/assets/*/*.js
+src/libs/eventor.js
+src/components/x-swiper/swiper.dom.js

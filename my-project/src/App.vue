@@ -4,7 +4,16 @@
     <view-box v-ref:view-box>
       <!--header slot-->
       <div class="vux-demo-header-box" slot="header">
-        <x-header :left-options="leftOptions" :transition="headerTransition" :title="title" @on-click-title="scrollTop"></x-header>
+        <x-header :left-options="leftOptions" :transition="headerTransition" :title="title" @on-click-title="scrollTop">
+        </x-header>
+        <!--<flexbox>-->
+          <!--<flexbox-item>-->
+            <!--<cell title="static position demo" is-link link="/component/search-static"></cell>-->
+          <!--</flexbox-item>-->
+          <!--<flexbox-item>-->
+            <!--<search @on-submit="onSubmit" :auto-fixed="autoFixed"></search>-->
+          <!--</flexbox-item>-->
+        <!--</flexbox>-->
       </div>
 
       <!--Main Content slot-->
@@ -50,6 +59,9 @@
   import Loading from 'vux/dist/components/Loading'
   import ViewBox from 'vux/dist/components/View-Box'
   import XHeader from 'vux/dist/components/X-Header'
+  import Search from 'vux/dist/components/search'
+  import Flexbox from 'vux/dist/components/flexbox'
+  import FlexboxItem from 'vux/dist/components/flexbox-item'
 
   export default {
     components: {
@@ -57,7 +69,10 @@
       TabbarItem,
       Loading,
       ViewBox,
-      XHeader
+      XHeader,
+      Search,
+      Flexbox,
+      FlexboxItem
     },
     store: store,
     vuex: {
@@ -78,6 +93,9 @@
     methods: {
       scrollTop () {
         this.$refs.viewBox.$els.viewBoxBody.scrollTop = 0
+      },
+      onSubmit (val) {
+        alert('on submit' + val)
       }
     },
     computed: {

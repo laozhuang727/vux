@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import App from './App'
 
+import Demo from './pages/Demo'
+import Search from './pages/Search'
+
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
 
@@ -56,6 +59,12 @@ router.map({
     component: function (resolve) {
       require(['./MainPage'], resolve)
     }
+  },
+  '/demo': {
+    component: Demo
+  },
+  '/component/search': {
+    component: Search
   }
 })
 
