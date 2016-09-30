@@ -1,0 +1,219 @@
+.shop-back{width: 5%;float: left;height: 4.4rem;line-height: 4.4rem;}
+.shop-back a{display: block;height: 4.4rem;}
+.shop-back a img{height: 1.4rem;margin: 1.5rem 0 1.5rem 1rem;display: block;}
+.shop-search-box{position: relative;height: 4.4rem;width: 77%;float: left;}
+.shop-search-box input{height: 3rem;width: 100%;border-radius: 5px;text-indent:3rem;border:1px solid #ccc;margin: .7rem 0; -webkit-appearance: none;font-size: 14px;margin-left: 1rem;}
+.shop-search-box img{margin-left: 1rem;position: absolute;left: 3%;top:38%;width: 1.4rem;}
+.shop-click{width: 18%;float: right;height: 4.4rem;}
+.shop-click a{text-align: right;margin-right: 1rem;display: block;line-height: 4.4rem;font-size: 1.6rem;}
+/*头部*/
+
+.shop-mes {
+  height: 10rem;
+  background: url(../images/my-banner1.jpg) no-repeat;
+  width: 100%;
+  max-width: 768px;
+  position: relative;
+}
+.shop-mes .lef {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 75%;
+  height: 6rem;
+}
+.shop-mes .lef span {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  position: relative;
+  height: 6rem;
+}
+.shop-mes .lef span img {
+  display: inline-block;
+  width: 100%;
+  max-height: 6rem;
+}
+.shop-mes .lef span em {
+  font-style: normal;
+  display: block;
+  color: #fff;
+  margin-left: .5rem;
+  position: absolute;
+  bottom: 3.5rem;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.shop-mes .lef span i {
+  font-style: normal;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  margin-left: .5rem;
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.shop-mes .rig {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 20%;
+  height: 6rem;
+  text-align: right;
+}
+.shop-mes .rig ul {
+  position: relative;
+  height: 6rem;
+}
+.shop-mes .rig ul li {
+  position: absolute;
+  right: 0;
+  line-height: 1;
+}
+.shop-mes .rig ul .up{
+  bottom: 3.5rem;
+}
+.shop-mes .rig ul .dow{
+  bottom: 1.5rem;
+}
+.shop-mes .rig ul li a {
+  padding-left: 1.8rem;
+  background: url(../images/commodity-focus-gray.png) no-repeat left;
+  background-size: 1.2rem;
+  color: #fff;
+}
+.shop-mes .rig ul li em {
+  color: #fff;
+  font-style: normal;
+  line-height: 1;
+}
+/*店铺信息*/
+
+.shop-ind-nav {
+  zoom: 1;
+  background: #fff;
+  padding-bottom: .8rem;
+}
+.shop-ind-nav:after {
+  clear: both;
+  content: '.';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.shop-ind-nav dl {
+  width: 25%;
+  float: left;
+}
+.shop-ind-nav dl dt {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  margin-top: .5rem;
+  text-align: center;
+}
+.shop-ind-nav dl dt img {
+  height: 4rem;
+}
+.shop-ind-nav dl dd {
+  display: block;
+  width: 100%;
+  margin-top: .3rem;
+  text-align: center;
+}
+.shop-ind-nav .on dd {
+  color: #ff303d;
+}
+/*店铺导航*/
+
+.shop-nav{height: 4.4rem;width: 100%;max-width: 768px;background: #fff;margin-top: 15px;}
+.shop-nav li{float: left;width: 25%;text-align: center;}
+.shop-nav li a{display: block;width: 100%;height: 4.2rem;line-height: 4.2rem;color: #666;font-size: 14px;}
+.shop-nav-on{border-bottom: .4rem solid #ff303d;height: 4rem;}
+.shop-nav-on a{color: #ff303d !important;}
+/*全部商品导航*/
+
+.ind-list {
+  width: 100%;
+  zoom: 1;
+  background: #fff;
+  margin-top: 15px;
+}
+.ind-list .tit {
+  height: 3.2rem;
+  margin: 0 1rem;
+  clear: both;
+  border-bottom: 1px solid #e4e4e4;
+}
+.ind-list .tit span {
+  line-height: 3.2rem;
+  font-size: 18px;
+}
+.ind-list:after {
+  clear: both;
+  content: '.';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.ind-list .pro {
+  width: 50%;
+  float: left;
+}
+.ind-list .pro a {
+  display: block;
+  margin: 0 1rem;
+  padding: 1rem 0;
+}
+.ind-list .pro a span {
+  display: block;
+}
+.ind-list .pro a span img {
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+.ind-list .nam {
+  height: 4rem;
+  line-height: 2rem;
+  overflow: hidden;
+}
+.ind-list .pri {
+  margin-top: .5rem;
+  line-height: 1;
+  color: #ff303d;
+}
+.ind-list .bot {
+  height: 3.2rem;
+  text-align: right;
+  clear: both;
+  margin: 0 1rem;
+  border-top: 1px solid #e4e4e4;
+}
+.ind-list .bot a {
+  line-height: 3.2rem;
+  padding-right: 1.9rem;
+  background: url(../images/more-arrow.png) no-repeat right;
+  background-size: 1.4rem;
+  display: inline-block;
+  height: 3.2rem;
+}
+/*店铺主页商品列表*/
+
+.shop-list{background-color: #fff;margin-top: 15px;width: 100%;overflow: hidden;}
+.shop-list a{display: block;overflow: hidden;}
+.shop-com-img{float: left;width: 30%;}
+.shop-com-img img{width: 80%;margin: 1rem;}
+.shop-com-int{padding: 1rem 0;float: left;width: 70%;}
+.shop-com-int p{margin-right: 1rem;}
+.shop-com-prize{overflow: hideen;margin-top: .5rem;}
+.shop-com-prize span{color: #ff303d;}
+.shop-com-prize p{color: #666;font-size: 12px;margin-top: .2rem;}
+.shop-com-prize p em { color: #666;font-style: normal;margin-right: 1rem;}
+/*其他页面商品列表*/

@@ -1,0 +1,27 @@
+.search-back{width: 5%;float: left;height: 4.4rem;line-height: 4.4rem;}
+.search-back a{display: block;height: 4.4rem;}
+.search-back a img{height: 1.4rem;margin: 1.5rem 0 1.5rem 1rem;display: block;}
+.search-search-box{position: relative;height: 4.4rem;width: 77%;float: left;}
+.search-search-box input{height: 3rem;width: 100%;border-radius: 5px;text-indent:3rem;border:1px solid #ccc;margin: .7rem 0; -webkit-appearance: none;font-size: 14px;margin-left: 1rem;}
+.search-search-box img{margin-left: 1rem;position: absolute;left: 3%;top:38%;width: 1.4rem;}
+.search-click{width: 18%;float: right;height: 4.4rem;}
+.search-click a{text-align: right;margin-right: 1rem;display: block;line-height: 4.4rem;font-size: 1.4rem;}
+/*头部*/
+
+.search-nav{height: 4.4rem;width: 100%;max-width: 768px;}
+.search-nav li{float: left;width: 25%;text-align: center;}
+.search-nav li a{display: block;width: 100%;height: 4.2rem;line-height: 4.2rem;color: #666;font-size: 14px;}
+.search-nav-on{border-bottom: .4rem solid #ff303d;height: 4rem;}
+.search-nav-on a{color: #ff303d !important;}
+/*导航*/
+
+.search-list{background-color: #fff;margin-bottom: 15px;width: 100%;overflow: hidden;}
+.search-list a{display: block;}
+.search-com-img{float: left;width: 25%;}
+.search-com-img img{width: 80%;margin: 1rem;}
+.search-com-int{padding: 1rem 0;float: left;width: 75%;}
+.search-com-int p{margin-right: 1rem;}
+.search-com-prize{overflow: hideen;margin-top: .5rem;}
+.search-com-prize span{color: #ff303d;}
+.search-com-prize p{color: #666;font-size: 12px;}
+/*搜索列表公用样式*/

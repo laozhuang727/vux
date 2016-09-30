@@ -1,0 +1,103 @@
+.my-promote {
+  
+}
+.my-promote .pro-add {
+  background: #fff;
+  padding: .5rem 0;
+  border: 1px solid #f0f2f5;
+  border-width: 0 0 1px;
+  margin-top: 15px;
+}
+.my-promote .pro-add span {
+  display: block;
+  line-height: 3.6rem;
+  margin-left: 1rem;
+  font-size: 16px;
+}
+.my-promote .pro-add span b {
+  margin-left: 1rem;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  display: inline-block;
+  color: #ff303d;
+  width: 100px;
+  text-align: center;
+}
+
+.my-promote .withward {
+  background: #fff;
+  line-height: 3.6rem;
+  padding: .5rem 0;
+}
+.my-promote .withward span {
+  margin-left: 1rem;
+}
+.my-promote .withward span b {
+  font-weight: normal;
+}
+.my-promote .withward a {
+  float: right;
+  background: #999;
+  margin-right: 1rem;
+  height: 2.6rem;
+  display: block;
+  line-height: 2.6rem;
+  margin-top: .5rem;
+  width: 6rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 5%;
+}
+
+.my-promote .mem-num {
+  background: #fff;
+  margin-top: 15px;
+}
+.my-promote .mem-num .one , .my-promote .mem-num .two {
+  padding: .5rem 0;
+  overflow: hidden;
+  border-bottom: 1px solid #f0f2f5;
+}
+.my-promote .mem-num .three {
+  padding: .5rem 0;
+  overflow: hidden;
+}
+.my-promote .mem-num .lef {
+  margin-left: 1rem;
+  float: left;
+}
+.my-promote .mem-num .lef span {
+  display: block;
+  line-height: 1.8rem;
+}
+.my-promote .mem-num .lef em {
+  display: block;
+  font-style: normal;
+  color: #666;
+  line-height: 1.8rem;
+}
+.my-promote .mem-num .rig {
+  float: right;
+}
+.my-promote .mem-num .rig span {
+  font-size: 16px;
+  margin-right: 1rem;
+  line-height: 3.6rem;
+}
+/*我的分销*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.commodity{background-color: #fff;overflow: hidden;margin-top: 15px;}
+.commodity .comm-tit{height: 3.6rem;}
+.commodity .comm-tit a{line-height: 3.6rem;display: block;}
+.commodity .comm-tit img{max-width: 20px;width: 100%;vertical-align: middle;margin: 0 .5rem 0 1rem;}
+.commodity .comm-tit span{font-size: 16px;}
+.commodity .comm-con{overflow: hidden;border-top: 1px solid #f0f2f5;width: 100%;padding-bottom: 1rem;background: #fff;position: relative;}
+.comm-con .check{float: left;width: 10%;margin-top: 5rem;}
+.comm-con .check a{display: block;margin-left: 1rem;}
+.comm-con .check a img{max-width: 20px;width: 100%;vertical-align: middle;}
+.commodity-banner{float: left;width: 30%;}
+.commodity-banner a{display: block;margin: 2rem .5rem 0;text-align: center;}
+.commodity-banner a img{max-width: 8rem;}
+.commodity-int{float: left;width: 59%;}
+.commodity-nam{margin-top: 1rem;overflow: hidden;margin-bottom: .5rem;}
+.commodity-nam a{color: #666;}
+.commodity-style span{color: #666;}
+.commodity-prize span{color: #666;}
+.commodity-num{width: 90px;height: 24px;border-bottom: 1px solid #dcdcdc;border-top: 1px solid #dcdcdc;margin-top: .4rem;}
+.commodity-num a{text-align: center;line-height: 24px;height: 24px;width: 29px;display: block;float: left;border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;color:#666;font-size: 18px;}
+.commodity-num input{text-align: center;line-height: 22px;height: 22px;width: 28px;color: #666;float: left;border:none;font-size: 14px;}
+.commodity-delete{position: absolute;right: 1rem;top: 55%;}
+.commodity-delete a{display: block;}
+.commodity-delete a img{max-width: 20px;width: 100%;}
+/*商品*/
+
+.cart-space{margin: 1.5rem 0 11.8rem 0;}
+/*空白区间*/
+
+.balance{height: 5.4rem;position: fixed;z-index: 100;bottom: 5.4rem;width: 100%;max-width: 768px;background: rgba(0,0,0,0.5);}
+.balance-check{float: left;overflow: hidden;}
+.balance-check a{margin-left: 1rem;line-height: 5.4rem;display: block;}
+.balance-check a img{max-width: 20px;width: 100%;vertical-align: middle;}
+.balance span{color: #fff;height: 5.4rem;line-height: 5.4rem;float: left;margin: 0 1rem 0 .5rem;}
+.balance p{color: #fff;height: 5.4rem;line-height: 5.4rem;float:left;}
+.balance-button{float: right;height: 5.4rem;}
+.balance-button a{width: 10rem;height: 3.6rem;float: right;margin-top: .9rem;border-radius: 3px;text-align: center;display: block;color: #fff;line-height: 3.6rem;font-size: 16px;margin-right: 1rem;background-color: #ff4854;}
+/*商品结算*/
+
+.footer-cart dd{color: #ff303d;}
+/*底部导航*/

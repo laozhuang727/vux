@@ -1,0 +1,12 @@
+.my-bon{margin-top: 15px;overflow: hidden;}
+.my-bon p{margin-left: 1rem;}
+.my-bon p span{color: #ff303d;}
+.my-bon p b{color: #666;margin-right: 5px;font-weight: initial;}
+.my-bon table{background-color: #fff;text-align: center;width: 100%;margin-top: 15px;}
+.my-bon td{border-bottom: 1px solid #f0f2f5;height: 3.2rem;}
+.my-bon .tim{width: 40%;}
+.my-bon .gra td{color: #666;font-size: 12px;}
+/*我的金券*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

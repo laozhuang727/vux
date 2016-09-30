@@ -1,0 +1,6 @@
+.topic{overflow: hidden;}
+.topic ul{overflow: hidden;}
+.topic ul li{margin-top: 15px;background: #fff;}
+.topic ul li a{display: block;}
+.topic ul li a img{display: block;width: 100%;}
+/*品牌列表*/

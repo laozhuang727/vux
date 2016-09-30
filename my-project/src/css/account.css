@@ -1,0 +1,57 @@
+.account-hea-por{height: 8rem;width:100%;border-bottom: 1px solid #f0f2f5;margin-top: 15px;background-color: #fff;}
+.account-hea-por a{height: 115px;display: block;}
+.account-hea-por p{line-height: 8rem;float: left;margin-left:1rem;}
+.account-hea-por span{float: right;line-height: 8rem;}
+.account-hea-por span img{vertical-align: middle;}
+.account-hea-por-adv{margin-right: 1rem !important;width: .8rem;height: 1.2rem;}
+/*头像*/
+
+.account-con{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;background-color: #fff;}
+.account-con a{height: 3.6rem;display: block;}
+.account-con p{line-height: 3.6rem;float: left;margin-left:1rem;}
+.account-con span{float: right;line-height: 3.6rem;color: #666;}
+.account-con span img{margin-right: 1rem;vertical-align: middle;margin-left: 1rem;width: .8rem;height: 1rem;}
+/*账户管理内容通用样式*/
+
+.account-address{height: 3.6rem;width:100%;background-color: #fff;margin-top: 15px;}
+.account-address a{height: 3.6rem;display: block;}
+.account-address p{line-height: 3.6rem;float: left;margin-left:1rem;}
+.account-address span{float: right;line-height: 3.6rem;color: #ff303d;}
+.account-address span img{margin-right: 1rem;vertical-align: middle;margin-left: 1rem;width: .8rem;height: 1rem;}
+/*地址管理*/
+
+.account-pop-up{overflow: hidden;}
+.account-pop-up div{overflow: hidden;background: #fff;}
+.account-pop-up input,select{border: 1px solid #e4e4e4;-webkit-appearance: none;border-radius: 5px;padding: 1rem;font-size: 14px;}
+.account-pop-up .pop-but{overflow: hidden;margin: 0 auto 1rem;width: 90%;text-align: center;}
+.account-pop-up .pop-but a{display: inline-block;padding: .7rem 2rem;border-radius: 5px;color: #fff;}
+.account-pop-up .pop-but .gray{background: #ccc;margin-right: 1rem;}
+.account-pop-up .pop-but .red{background: #ff303d;}
+
+.account-pop-up .name-pop-up{margin: 0 auto;margin-top: 15px;width: 80%;}
+.name-pop-up .nam-pop-inu{overflow: hidden;margin: 1rem auto;width: 90%;}
+.nam-pop-inu input{width: 100%;box-sizing: border-box;height: 3.5rem;}
+
+.account-pop-up .phone-pop-up{margin: 0 auto;margin-top: 15px;width: 80%;}
+.phone-pop-up .pho-pop-inu{overflow: hidden;margin: 1rem auto;width: 90%;}
+.pho-pop-inu input{width: 100%;box-sizing: border-box;height: 3.5rem;}
+.phone-pop-up .pho-pop-cod{overflow: hidden;margin: 0 auto 1rem;width: 90%;}
+.pho-pop-cod input{width: 50%;box-sizing: border-box;height: 3.5rem;}
+.pho-pop-cod a{display: inline-block;width: 40%;margin-left: 5%;color: #0067c4;}
+
+.account-pop-up .password-pop-up{margin: 0 auto;margin-top: 15px;width: 80%;}
+.password-pop-up .pas-pop-inu{overflow: hidden;margin: 0 auto 1rem;width: 90%;}
+.pas-pop-inu input{width: 100%;box-sizing: border-box;height: 3.5rem;margin-top: 1rem;}
+
+.account-pop-up .sex-pop-up{margin: 0 auto;margin-top: 15px;width: 80%;}
+.sex-pop-up .sex-pop-inu{overflow: hidden;margin: 1rem auto;width: 90%;}
+.sex-pop-inu span{width: 30%;box-sizing: border-box;height: 3.5rem;display: inline-block;line-height: 3.5rem;text-align: center;}
+.sex-pop-inu span img{width: 1.6rem;vertical-align: middle;margin-right: .5rem;}
+
+.account-pop-up .birthday-pop-up{margin: 0 auto;margin-top: 15px;width: 80%;}
+.birthday-pop-up .bir-pop-inu{overflow: hidden;margin: 1rem auto;width: 90%;text-align: center;}
+.bir-pop-inu select{width: 30%;box-sizing: border-box;height: 3.5rem;padding: .8rem;}
+.bir-pop-inu select:nth-child(2){margin: 0 3%;}
+/*地址管理弹窗*/
+
+

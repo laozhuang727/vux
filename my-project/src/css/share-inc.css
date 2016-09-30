@@ -1,0 +1,12 @@
+.share-inc{margin-top: 15px;overflow: hidden;}
+.share-inc p{margin-left: 1rem;}
+.share-inc p span{color: #ff303d;}
+.share-inc p b{color: #666;margin-right: 5px;font-weight: initial;}
+.share-inc table{background-color: #fff;text-align: center;width: 100%;margin-top: 15px;}
+.share-inc td{border-bottom: 1px solid #f0f2f5;height: 3.2rem;}
+.share-inc .tim{width: 40%;}
+.share-inc .gra td{color: #666;font-size: 12px;}
+/*分享收益*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

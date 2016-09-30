@@ -1,0 +1,48 @@
+.apply-return{height: 3.2rem;width: 90%;margin: 0 auto;border-radius: 5px;background-color: #fff;margin-top: 15px;}
+.apply-return .title{float: left;color: #666;line-height: 3.2rem;width: 30%;}
+.apply-return .title span{color: #ff303d;margin-right: 5px;float: left;line-height: 3.2rem;margin-left: 1rem;}
+.apply-return select{width: 70%;border: none;height: 3.2rem;}
+.apply-return .entry-pri{width: 70%;float: left;}
+.apply-return .entry-pri p{line-height: 3.2rem;float: left;color: #666;margin-right: 5px;}
+.apply-return .entry-pri input{border: none;height: 3.2rem;color: #ff303d;}
+.return-prize{width: 90%;color: #666;margin: 0px auto;margin-top: 15px;}
+/*申请服务、退货原因、退款金额*/
+
+.return-illustrate{width: 90%;margin: 0px auto;margin-top: 15px;}
+.return-illustrate textarea{text-indent: 1rem;height: 150px;border: none;border-radius: 5px;width: 95%;font-size: 14px;line-height: 3.2rem;padding: 0 1rem;}
+/*退货说明*/
+
+.certificate{overflow: hidden;width: 100%;}
+.certificate p{width: 90%;margin: 0px auto;line-height: 3.2rem;color: #666;}
+.certificate a{float: left;display: block;overflow: hidden;width: 20%;margin-left: 10%;}
+.certificate img{display: block;max-width: 100px;width: 100%;margin: 0 auto;}
+/*退货凭证*/
+
+.choose-ret-add{width: 90%;margin: 0px auto;margin-top: 15px;border-radius: 5px;background-color: #fff;}
+.add-return-address{height: 3.2rem;width: 100%;}
+.add-return-address p{float: left;line-height: 3.2rem;margin-left: 1rem;color: #666;}
+.add-return-address a{float: right;line-height: 3.2rem;margin-right: 1rem;font-weight: bold;}
+.return-address{overflow: hidden;position: relative;border-top: 1px solid #f9f9f9;width: 100%;}
+.return-address-top{height: 3.2rem;width: 100%;}
+.return-address-name{overflow: hidden;width: 100%;}
+.return-address-name p{margin-left: 1rem;line-height: 3.2rem;margin-right: 2rem;float: left;}
+.return-address-name span{line-height: 3.2rem;float: left;}
+.return-address-bottom{overflow: hidden;width: 100%;}
+.return-address-add{float: left;width: 90%;margin-bottom: .5rem;}
+.return-address-add p{color: #666;overflow: hidden;margin-left: 1rem;width: 92%;}
+.return-address-cho{position: absolute;top: 35%;right: 1rem;overflow: hidden;width: 2rem;}
+.return-address-cho a img{display: block;width: 2rem;}
+.return-address-rev{text-align: right;color: #0067d1;padding-right: 1rem;height: 3.2rem;line-height: 3.2rem;border-top: 1px solid #f9f9f9;}
+.return-address-rev a{color: #0067d1;}
+/*添加地址*/
+
+.return-log{width: 90%;margin: 0px auto;margin-top: 15px;border-radius: 5px;background-color: #fff;}
+.return-log .title{float: left;color: #666;line-height: 3.2rem;width: 40%;}
+.return-log .title span{color: #ff303d;margin-right: 5px;float: left;line-height: 3.2rem;margin-left: 1rem;}
+.return-log select{width: 60%;border: none;height: 3.2rem;}
+.return-log input{width: 60%;border: none;height: 3.2rem;}
+/*物流信息*/
+
+.sub-apply{width: 75%;height: 3.6rem;margin: 2rem auto;}
+.sub-apply a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+/*提交申请*/

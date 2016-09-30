@@ -1,0 +1,75 @@
+.consignee-mes{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.consignee-mes a{display: block;overflow: hidden;position: relative;}
+.consignee-mes img{margin-right: .5rem;vertical-align: middle;width: 1.4rem;}
+.consignee-name{float: left;margin-left: 1rem;line-height: 3.2rem;height: 3.2rem;width: 10rem;}
+.consignee-phone{margin-left: 1rem;line-height: 3.2rem;height: 3.2rem;}
+.consignee-add{color: #666;margin-left: 1rem;height: 2.6rem;line-height: 1.6rem;}
+.indicate-adv{position: absolute;right: 0;top: 30%;}
+.indicate-adv img{width: .8rem;margin-right: 1rem;}
+/*收货信息*/
+
+.build-add{height: 3.2rem;background-color: #fff;text-align: center;margin-top: 15px;}
+.build-add a{display: block;color: #666;}
+.build-add a b{color: #ff303d;font-size: 20px;line-height: 3rem;}
+/*新建收货地址*/
+
+.ord-det-com{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.com-shop{height: 3.2rem;width: 100%;}
+.com-shop a{display: block;width: 98%;height: 3.2rem;line-height: 3.2rem;padding-left: 1rem;}
+.com-mes{border-top: 1px solid #f0f2f5;overflow: hidden;}
+.com-mes a{display: block;}
+.com-mes-img{float: left;width: 20%;}
+.com-mes-img img{margin-left: 1rem;margin-top: 1rem;}
+.com-mes-int{float: left;width: 63%;}
+.com-mes-int p {color: #666;margin-top: 1rem;margin-left: 1rem;}
+.com-mes-int span {color: #666;line-height: 3rem;margin-left: 1rem;}
+.com-mes-prize{color: #ff303d;float: right;line-height: 7.4rem;width: 17%;text-align: left;}
+/*商品信息*/
+
+.wri-ord{background-color: #fff;margin-top: 1px;height: 3.2rem;}
+.wri-ord a{display: block;height: 3.2rem;}
+.wri-ord p{float: left;line-height: 3.2rem;margin-left: 1rem;}
+.wri-ord span{float: right;}
+.wri-ord span em{line-height: 3.2rem;display: block;height:3.2rem;font-style:normal;float:right;margin-right: 1rem;}
+.wri-ord img{margin-top: .9rem;width: .8rem;float:right;margin-right: 1rem;}
+.sales-met span select {height: 2.2rem;margin-right: 1rem;margin-top: .7rem;-webkit-appearance: none;border: 0;text-align: center;font-size: 14px;padding: 0 1rem 0 .5rem;}
+.wri-ord p input{height: 3.2rem;line-height: 3.2rem;border: 0;padding-left: .5rem;width: 75%;overflow: hidden;}
+.lea-mes p{width:96%;}
+.use-cou{margin-top: 15px;}
+/*配送信息 支付方式 发票信息公用样式*/
+
+.wri-ord-inv{background-color: #fff;overflow: hidden;}
+.wri-ord-inv .inv-m{line-height: 3.6rem;border-top: 1px solid #f0f2f5;color: #666;}
+.wri-ord-inv .inv-m span{margin: 0 .5rem 0 1rem;}
+/*发票信息展开*/
+
+.wri-invoice{overflow: hidden;width: 100%;margin-top: 15px;}
+.wri-invoice p{height: 3.2rem;line-height: 3.2rem;margin-left: 1rem;}
+.wri-invoice .inv-sty{background: #fff;overflow: hidden;}
+.wri-invoice .inv-sty span{display: block;height: 2.4rem;line-height: 2.4rem;}
+.wri-invoice .inv-sty span a{padding: 3px 7px;border: 1px solid #ccc;border-radius: 5px;margin-left: 1rem;color: #666;}
+.wri-invoice .inv-sty span .on{border: 1px solid #ff303d;color: #ff303d;}
+.wri-invoice .inv-hea{background: #fff;width: 100%;}
+.wri-invoice .inv-hea input{height: 3.2rem;width: 87%;margin-left: 1rem;text-indent: 1rem;font-size: 14px;border-radius: 5px;border: none;border: 1px solid #ccc;-webkit-appearance: none;}
+.wri-invoice .inv-con{background: #fff;overflow: hidden;}
+.wri-invoice .inv-con ul{margin-left: 1rem;overflow: hidden;}
+.wri-invoice .inv-con ul li{height: 2.6rem;color: #666;}
+.wri-invoice .inv-con ul li img{width: 2rem;vertical-align: middle;margin-right: .5rem;}
+.inv-sure{width: 75%;height: 3.6rem;margin: 1rem auto;}
+.inv-sure a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+/*发票信息跳转页面*/
+
+.wri-ord-prize{background-color: #fff;margin-top: 15px;overflow: hidden;padding-bottom: 15px;}
+.wri-ord-prize li{line-height: 1;margin-left: 1rem;margin-top: 15px;}
+.wri-ord-prize li span{color: #ff303d;line-height: 1;}
+/*订单金额*/
+
+.wri-ord-space{height: 6.9rem;}
+/*空白区间*/
+
+.wri-ord-bot{height: 5.4rem;position: fixed;z-index: 100;bottom: 0px;width: 100%;max-width: 768px;background:rgba(0,0,0,0.5);}
+.wri-ord-act{margin-left: 1rem;float: left;line-height: 5.4rem;color: #fff;float: left;}
+.wri-ord-act span{color: #fff;}
+.sub-button{width: 10rem;height: 3.6rem;background-color: #ff4854;float: right;margin-right: 1rem;margin-top: .9rem;border-radius: 3px;text-align: center;}
+.sub-button a{display: block;color: #fff;line-height: 3.6rem;font-size: 16px;}
+/*提交订单*/

@@ -1,0 +1,13 @@
+.orde-pay{background-color: #fff;overflow: hidden;margin-top: 15px;}
+.orde-pay-tit{float: left;margin: 1rem .5rem 1rem 1rem;}
+.orde-pay-tit li{color: #666;line-height: 2;}
+.orde-pay-mes{float: left;margin: 1rem 0;}
+.orde-pay-mes li{line-height: 2;}
+.orde-pay-prize{color: #ff303d;}
+.orde-pay-way{background-color: #fff;margin-top: 15px;height: 3.2rem;}
+.orde-pay-way p{float: left;margin-left: 1rem;line-height: 3.2rem;}
+.orde-pay-way a{float: left;margin-left: 1rem;margin-top: .5rem;}
+.orde-pay-way a img{width: 2.1rem;}
+.pay-now{background-color: #ff303d;border-radius: 5px;width: 75%;height: 3.6rem;margin: 15px auto;text-align: center;}
+.pay-now a{width: 100%;height: 3.6rem;display: block;line-height: 3.6rem;color: #fff;font-size: 16px;}
+/*订单支付*/

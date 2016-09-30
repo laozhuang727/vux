@@ -1,0 +1,22 @@
+.message-nav{height: 3.2rem;width: 100%;}
+.message-nav p{text-align: center;width: 33%;color: #666;float: left;line-height: 3.2rem;}
+.message-con{height: 3.2rem;border-bottom: 1px solid #f0f2f5;background-color: #fff;width: 100%;}
+.message-con-title{width: 33%;height: 3.2rem;float: left;}
+.message-con-title input{margin-left: 1rem;float: left;margin-top: 1rem;vertical-align: middle;border: none;}
+.message-con-title img{float: left;margin-left: 5px;margin-top: 1rem;max-width: 14px;width: 100%;}
+.message-con-title a{display: block;float: left;color: #666;font-size: 14px;height: 3.2rem;line-height: 3.4rem;margin-left: 5px;overflow: hidden;width: 53%;text-overflow: ellipsis;white-space: nowrap;}
+.addresser{width: 33%;text-align: center;float: left;height: 3.2rem;}
+.addresser p{color: #666;text-align: center;line-height: 3.2rem;}
+.time{width: 33%;text-align: center;float: left;height: 3.2rem;}
+.time span{color: #666;font-size: 14px;line-height: 3.2rem;}
+/*我的消息*/
+
+.message-delete{height: 5.4rem;position: fixed;z-index: 100;bottom: 0px;width: 100%;max-width: 768px;background: rgba(0,0,0,0.5);}
+.message-delete-check{float: left;overflow: hidden;}
+.message-delete-check a{margin-left: 1rem;line-height: 5.4rem;display: block;}
+.message-delete-check a img{max-width: 20px;width: 100%;vertical-align: middle;}
+.message-delete span{color: #fff;height: 5.4rem;line-height: 5.4rem;float: left;margin: 0 1rem 0 .5rem;}
+.message-delete p{color: #fff;height: 5.4rem;line-height: 5.4rem;float:left;}
+.message-delete-button{float: right;height: 5.4rem;}
+.message-delete-button a{width: 10rem;height: 3.6rem;float: right;margin-top: .9rem;border-radius: 3px;text-align: center;display: block;color: #fff;line-height: 3.6rem;font-size: 16px;margin-right: 1rem;background-color: #ff4854;}
+/*删除消息*/

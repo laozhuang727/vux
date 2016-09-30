@@ -1,14 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import VueResource from 'vue-resource'
 import App from './App'
 
 import Demo from './pages/Demo'
 import Search from './pages/Search'
+import Flexbox from './pages/Flexbox'
+import ShoppingCart from './pages/ShoppingCart'
 
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
 
 Vue.use(Router)
+Vue.use(VueResource)
 Vue.config.devtools = true
 
 const router = new Router({
@@ -57,11 +61,17 @@ sync(store, router)
 router.map({
   '/': {
     component: function (resolve) {
-      require(['./MainPage'], resolve)
+      require(['./pages/IndexPage'], resolve)
     }
   },
   '/demo': {
     component: Demo
+  },
+  '/shoppingCart': {
+    component: ShoppingCart
+  },
+  '/component/flexbox': {
+    component: Flexbox
   },
   '/component/search': {
     component: Search

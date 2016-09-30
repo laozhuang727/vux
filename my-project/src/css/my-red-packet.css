@@ -1,0 +1,27 @@
+.my-red-pac{overflow: hidden;}
+.my-red-pac .packet{overflow: hidden;margin-top: 15px;}
+.my-red-pac .packet p{margin-left: 1rem;float: left;}
+.my-red-pac .packet p span{color: #ff303d;}
+.my-red-pac .packet p b{color: #666;margin-left: 5px;font-weight: initial;}
+.my-red-pac .explain p{color: #666;margin: 0 1rem;}
+.my-red-pac table{margin-top: 15px;background-color: #fff;width: 100%;text-align: center;}
+.my-red-pac table a{display: block;}
+.my-red-pac table dt{color: #666;margin-top: 10px;}
+.my-red-pac table dd{color: #666;margin-bottom: 10px;}
+.my-red-pac table .cho dt{color: #ff303d;}
+.my-red-pac table .cho dd{color: #ff303d;}
+.my-red-pac .packet-con{float: left;overflow: hidden;width: 100%;margin-top: 15px;}
+.my-red-pac .packet-con a{display: block;width: 75%;margin: auto;overflow: hidden;}
+.my-red-pac .packet-con ul{overflow: hidden;float: left;}
+.my-red-pac .packet-con li{color: #666;line-height: 1.4;}
+.my-red-pac .packet-con li:nth-child(1){margin: 1rem 0 0;}
+.my-red-pac .packet-con li:nth-child(3){margin: .5rem 0 0;}
+.my-red-pac .packet-con li b{font-size: 16px;font-weight: initial;}
+.my-red-pac .packet-con img{float: left;margin: 1rem 1rem 0 0;width: 6rem;}
+/*我的红包*/
+
+.my-red-pac-space{height: 5.4rem;margin-top: 15px;}
+/*空白区间*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

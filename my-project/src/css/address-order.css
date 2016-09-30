@@ -1,0 +1,14 @@
+.address-order{background-color: #fff;overflow: hidden;margin-top: 15px;position: relative;}
+.address-order-top{height: 3.2rem;}
+.address-order-name{overflow: hidden;}
+.address-order-name p{margin-left: 1rem;line-height: 3.2rem;margin-right: 2rem;float: left;}
+.address-order-name span{line-height: 3.2rem;float: left;}
+.address-order-bottom{overflow: hidden;}
+.address-order-address{float: left;width: 90%;margin-bottom: .5rem;}
+.address-order-address p{color: #666;overflow: hidden;margin-left: 1rem;width: 92%;}
+.address-order-cho{position: absolute;top: 35%;right: 1rem;overflow: hidden;width: 2rem;}
+.address-order-cho a img{display: block;}
+/*管理收货地址*/
+
+.address-order-button{background-color: #ff303d;width: 75%;height: 3.6rem;text-align: center;border-radius: 5px;margin: 15px auto;}
+.address-order-button a{line-height: 3.6rem;display: block;color: #fff;font-size: 16px;}

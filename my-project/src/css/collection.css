@@ -1,0 +1,17 @@
+.collection-nav{height: 4.4rem;width: 100%;max-width: 768px;}
+.collection-nav li{float: left;width: 50%;text-align: center;}
+.collection-nav li a{display: block;width: 100%;height: 4.2rem;line-height: 4.2rem;color: #666;font-size: 14px;}
+.collection-nav-on{border-bottom: .4rem solid #ff303d;height: 4rem;}
+.collection-nav-on a{color: #ff303d !important;}
+/*导航*/
+
+.collection-list{background-color: #fff;position: relative;margin-bottom: 15px;overflow: hidden;}
+.collection-list a{display: block;}
+.collection-com-img{float: left;width: 25%;}
+.collection-com-img img{width: 80%;margin: 1rem;}
+.collection-com-int{float: left;width: 75%;}
+.collection-com-int p{color: #666;margin: 1rem 1rem .5rem 0;}
+.collection-com-int span{color: #ff303d;}
+.collection-cancel{background-color: #ff303d;position: absolute;bottom: 1rem;right: 1rem;border-radius: 5px;}
+.collection-cancel a{display: block;text-align: center;font-size: 14px;color: #fff;padding: 3px 7px;}
+/*收藏列表公用样式*/

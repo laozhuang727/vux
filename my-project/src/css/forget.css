@@ -1,0 +1,17 @@
+.forget-con{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.forget-con input{height: 1.8rem;width: 100%;border: none;font-size: 14px;padding: 1.3rem 0;vertical-align: middle;}
+.forget-con .forget-input{border-bottom: 1px solid #f0f2f5;width: 70%;display: inline-block;}
+.forget-con .phone-number{text-align: center;position: relative;}
+.forget-con .phone-number img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.forget-con .phone-number a{background-color: #ff303d;color: #fff;width: 7rem;height: 3rem;font-size: 12px;display: block;position: absolute;right: 12%;top:.6rem;line-height: 3rem;border-radius: 3px;}
+.forget-con .phone-code{text-align: center;}
+.forget-con .phone-code img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.forget-con .new-password{text-align: center;}
+.forget-con .new-password img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.forget-con .new-pas-input{width: 70%;display: inline-block;border-bottom: 1px solid #f0f2f5;}
+.forget-con .sure-password{text-align: center;}
+.forget-con .sure-password img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.forget-con .sur-pas-input{width: 70%;display: inline-block;}
+.forget-button{width: 75%;height: 3.6rem;margin: 0 auto;margin-top: 2rem;}
+.forget-button a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+/*找回密码*/

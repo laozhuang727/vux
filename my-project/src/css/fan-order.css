@@ -1,0 +1,12 @@
+.fan-order{margin-top: 15px;overflow: hidden;}
+.fan-order p{margin-left: 1rem;float: left;margin-bottom: 15px;}
+.fan-order p span{color: #ff303d;}
+.fan-order p b{color: #666;margin-right: 5px;font-weight: initial;}
+.fan-order table{background-color: #fff;text-align: center;width: 100%;margin-top: 15px;}
+.fan-order td{border-bottom: 1px solid #f0f2f5;height: 3.2rem;}
+.fan-order .tim{width: 40%;}
+.fan-order .gra td{color: #666;font-size: 12px;}
+/*粉丝订单*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

@@ -1,0 +1,15 @@
+.question{overflow: hidden;background-color: #fff;margin-top: 15px;}
+
+.question-list{overflow: hidden;border-bottom: 1px solid #dcdcdc;}
+.question-list span{color: #666;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;height: 3.2rem;line-height: 3.2rem;}
+.question-list .qus-lis-tit{height: 3.2rem;}
+.question-list .qus-lis-tit p{float: left;height: 3.2rem;line-height: 3.2rem;width: 90%;}
+.question-list .qus-lis-tit p img{float: left;width: 1.6rem;height: 1.6rem;margin-top: .8rem;margin-left: 1rem;}
+.question-list .qus-lis-tit p span{float: left;margin-left: .5rem;display: block;width: 87%;}
+.question-list .qus-lis-tit em{float: right;display: block;height: 3.2rem;}
+.question-list .qus-lis-tit em img{margin-right: 1rem;margin-top: 1rem;width: .8rem;height: 1.2rem;}
+.question-list .qus-lis-con{height: 3.2rem;border-top: 1px solid #dcdcdc;display: none;}
+.question-list .qus-lis-con a{display: block;height: 3.2rem;}
+.question-list .qus-lis-con a span{float: left;margin-left: 1rem;width: 89%;}
+.question-list .qus-lis-con a img{float: right;margin-right: 1rem;margin-top: 1rem;width: .8rem;height: 1.2rem;}
+/*常见问题列表*/

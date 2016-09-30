@@ -1,0 +1,16 @@
+.my-sha{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.my-sha a{height: 3.6rem;display: block;border-bottom: 1px solid #f0f2f5;}
+.my-sha p{line-height: 3.6rem;float: left;color: #666;}
+.my-sha p img{margin: 0 .5rem 0 1rem;vertical-align: middle;width: 1.6rem;}
+.my-sha span{color: #ff303d;float: right;line-height: 3.6rem;}
+.my-sha span img{margin: 0 1rem 0 .5rem;vertical-align: middle;width: .8rem;height: 1.2rem;}
+.my-sha span b{color: #666;font-weight: initial;}
+/*我的钱包*/
+
+.my-sha-exp{margin: 1rem 1rem 0;}
+.my-sha-exp span{color: #666;}
+.my-sha-exp li{margin-bottom: 10px;}
+/*说明*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

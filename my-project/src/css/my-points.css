@@ -1,0 +1,12 @@
+.my-poi{margin-top: 15px;overflow: hidden;}
+.my-poi p{margin-left: 1rem;float: left;margin-bottom: 15px;}
+.my-poi p span{color: #ff303d;}
+.my-poi p b{color: #666;margin-left: 5px;font-weight: initial;}
+.my-poi table{background-color: #fff;text-align: center;width: 100%;}
+.my-poi td{border-bottom: 1px solid #f0f2f5;height: 3.2rem;}
+.my-poi .tim{width: 40%;}
+.my-poi .gra td{color: #666;font-size: 12px;}
+/*我的积分*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

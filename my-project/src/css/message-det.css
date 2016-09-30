@@ -1,0 +1,7 @@
+.message-det{overflow: hidden;padding: 1rem;}
+.message-det p{font-size: 16px;}
+.message-det ul{overflow: hidden;margin-top: 1rem;}
+.message-det ul li{color: #666;}
+.message-det ul li b{font-weight: initial;color: #666;}
+.message-det span{margin-top: 1rem;display: block;overflow: hidden;color: #666;}
+/*信息详情*/

@@ -1,0 +1,18 @@
+.new-ret-address{background-color: #fff;margin-top: 15px;width: 100%;overflow: hidden;}
+.new-address{margin: 0px auto;width: 90%;margin-top: 15px;}
+.new-address p{line-height: 3.2rem;color: #666;}
+.new-address .address-input{height: 4.4rem;width: 100%;}
+.new-address .address-input select{height: 4.2rem;width: 100%;outline: none;box-shadow:none;text-indent: 1rem;-webkit-appearance: none;border: none;border: 1px solid #e4e4e4;}
+.new-address input{height: 4.4rem;width: 100%;border: none;font-size: 14px;outline: none;box-shadow:none;text-indent: 1rem;-webkit-appearance: none;border: 1px solid #e4e4e4;}
+/*新建收款地址共用样式*/
+
+.new-address-area{width: 90%;margin: 0px auto;margin-top: 15px;overflow: hidden;}
+.new-address-area p{height: 3.2rem;line-height: 3.2rem;color: #666;}
+.new-address-area .address-sel{height: 4.4rem;width: 100%;float: left;}
+.new-address-area .address-sel select{height: 4.2rem;width: 28%;outline: none;box-shadow:none;text-indent: 1rem;-webkit-appearance: none;border: none;border: 1px solid #e4e4e4;} 
+.new-address-area .address-sel select:nth-child(2){margin: 0 6%;}
+/*地区选择*/
+
+.new-address-save{background-color: #ff303d;width: 75%;height: 3.6rem;text-align: center;border-radius: 5px;margin: 15px auto;}
+.new-address-save a{line-height: 3.6rem;display: block;color: #fff;font-size: 16px;}
+/*保存并使用*/

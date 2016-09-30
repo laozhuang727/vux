@@ -1,0 +1,34 @@
+.login-binding{overflow: hidden;}
+
+.login-binding .now-acc{background: #fff;width: 90%;margin: 1rem auto 0;overflow: hidden;}
+.now-acc .now-acc-tit{height: 3.5rem;border-bottom: 1px solid #f0f2f5;}
+.now-acc .now-acc-tit p{line-height: 3.2rem;font-size: 16px;margin-left: 1rem;}
+.now-acc .now-acc-con{width: 100%;overflow: hidden;}
+.now-acc-con p{float: left;width: 30%;}
+.now-acc-con p img{width: 6rem;margin: 1rem;}
+.now-acc-con ul{width: 70%;float: left;margin-top: 1rem;}
+.now-acc-con ul li{color: #666;}
+.now-acc-con ul li span{overflow: hidden;}
+
+.login-binding .warning{width: 90%;margin: 0 auto;overflow: hidden;}
+.login-binding .warning p{margin-left: 1rem;line-height: 3.5rem;}
+
+.login-binding .login-bin-set{background: #fff;width: 90%;margin: 0 auto;overflow: hidden;}
+.login-bin-set .set-inp{overflow: hidden;margin: 1rem auto 0;width: 90%;}
+.login-bin-set .set-inp input{width: 100%;box-sizing: border-box;height: 3.5rem;border: 1px solid #e4e4e4;-webkit-appearance: none;border-radius: 5px;padding: 1rem;font-size: 14px;}
+.login-bin-set p{color: #666;width: 90%;margin: 0 auto;line-height: 3.5rem;}
+.login-bin-set .set-code{overflow: hidden;margin: 0 auto 1rem;width: 90%;}
+.login-bin-set .set-code input{width: 50%;box-sizing: border-box;height: 3.5rem;border: 1px solid #e4e4e4;-webkit-appearance: none;border-radius: 5px;padding: 1rem;font-size: 14px;}
+.login-bin-set .set-code a{display: inline-block;width: 40%;margin-left: 5%;color: #0067c4;}
+
+.login-binding .agreement{width: 90%;margin: 0 auto;overflow: hidden;}
+.login-binding .agreement p{margin-left: 1rem;line-height: 3.5rem;}
+.login-binding .agreement p a{color: #0067c4;}
+
+.login-binding .submi-but{background-color: #ff303d;width: 90%;height: 3.6rem;text-align: center;border-radius: 5px;margin: 0 auto 1rem;}
+.login-binding .submi-but a{line-height: 3.6rem;display: block;color: #fff;font-size: 16px;}
+
+.login-binding .or{width: 90%;margin: 0 auto 1rem;overflow: hidden;}
+.login-binding .or em{height: 1rem;border-bottom: 1px solid #e4e4e4;width: 40%;display: inline-block;}
+.login-binding .or b{width: 20%;text-align: center;display: inline-block; font-weight: initial;color: #666;line-height: 1.6rem;font-size: 16px;}
+/*微信端登录绑定*/

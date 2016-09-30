@@ -1,0 +1,101 @@
+.promote {
+  
+}
+.promote .success {
+  line-height: 3.6rem;
+  text-align: center;
+  font-size: 16px;
+}
+.promote .pro-ste {
+  background: #fff;
+}
+.promote .pro-ste .tit {
+  padding-top: .5rem;
+}
+.promote .pro-ste .tit span {
+  line-height: 3.2rem;
+  margin-left: 1rem;
+}
+.promote .pro-ste .ste {
+  width: 100%;
+  text-align: center;
+}
+.promote .pro-ste .ste img {
+  width: 90%;
+}
+.promote .pro-ste .ste ul {
+  zoom: 1;
+}
+.promote .pro-ste .ste ul:after {
+  clear: both;
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+.promote .pro-ste .ste li {
+  float: left;
+  width: 33%;
+  margin-top: .3rem;
+}
+
+.promote .pro-ste .net {
+  line-height: 3.2rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  border: 1px solid #e4e4e4;
+  border-width: 1px 0;
+  padding: 1rem 0;
+}
+.promote .pro-ste .net span {
+  float: left;
+  margin-left: 1rem;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.promote .pro-ste .net a {
+  display: block;
+  float: right;
+  margin-right: 1rem;
+  height: 2.6rem;
+  width: 5rem;
+  margin-top: .3rem;
+  text-align: center;
+  line-height: 2.4rem;
+  color: #fff;
+  background: #999;
+  border-radius: 5%;
+}
+
+.promote .pro-ste .cod {
+  overflow: hidden;
+  padding: 1rem 0;
+}
+.promote .pro-ste .cod span {
+  margin-left: 1rem;
+  float: left;
+  line-height: 6rem;
+}
+.promote .pro-ste .cod img {
+  width: 6rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+  float: left;
+}
+.promote .pro-ste .cod a {
+  display: block;
+  float: right;
+  margin-right: 1rem;
+  height: 2.6rem;
+  width: 5rem;
+  margin-top: 1.7rem;
+  text-align: center;
+  line-height: 2.4rem;
+  color: #fff;
+  background: #999;
+  border-radius: 5%;
+}
+/*分享商品*/

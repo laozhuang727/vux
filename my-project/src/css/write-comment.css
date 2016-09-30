@@ -1,0 +1,16 @@
+.write-comment{background-color: #fff;overflow: hidden;margin-top: 15px;border-bottom: 1px solid #f0f2f5;}
+.write-comment-img{float: left;margin: 1rem;overflow: hidden;}
+.write-comment-img a{display: block;}
+.write-comment-img a img{display: block;max-width: 100px;width: 100%;}
+.star-level{float: left;margin-top: 1rem;}
+.star-level p{margin-top: 1rem;}
+.star-level a{margin-top: 1rem;display: block;background: url(../images/star-level.png) no-repeat center 0;background-position: -4px -3px;background-size: 100px;height: 16px;width: 15rem;}
+.write-comment-now{width: 75%;height: 3.6rem;margin: 0 auto;margin-top: 2rem;}
+.write-comment-now a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+.write-comment-con{overflow: hidden;position: relative;}
+.write-comment-con textarea{width: 96%;height: 150px;text-indent: 1rem;line-height: 3.2rem;border: none;font-size: 14px;padding: 0 1rem;}
+.anonymous{position: absolute;right: 20px;bottom: 20px;height: 14px;width: 90px;}
+.anonymous span{color: #666;font-size: 14px;float: left;line-height: 14px;height: 14px;}
+.anonymous a{display: block;height: 14px;width: 27px;float:left;margin-left: 5px;position: relative;}
+.anonymous a img{vertical-align: middle;position: absolute;right: 0px;bottom: 0px;}
+/*发表评论*/

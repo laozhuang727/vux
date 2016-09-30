@@ -1,20 +1,22 @@
 <template>
-  <div style="height:100%;">
+  <div class="w768">
     <loading :show="isLoading" position="absolute"></loading>
     <view-box v-ref:view-box>
       <!--header slot-->
-      <div class="vux-demo-header-box" slot="header">
-        <x-header :left-options="leftOptions" :transition="headerTransition" :title="title" @on-click-title="scrollTop">
-        </x-header>
-        <!--<flexbox>-->
-          <!--<flexbox-item>-->
-            <!--<cell title="static position demo" is-link link="/component/search-static"></cell>-->
-          <!--</flexbox-item>-->
-          <!--<flexbox-item>-->
-            <!--<search @on-submit="onSubmit" :auto-fixed="autoFixed"></search>-->
-          <!--</flexbox-item>-->
-        <!--</flexbox>-->
-      </div>
+      <header>
+        <div class="index-header">
+          <div class="logo">
+            <img src="./images/logo.png" alt="">
+          </div>
+          <div class="index-search-box">
+            <input type="text" placeholder="搜索...">
+            <img src="./images/icon-search.png" alt="">
+          </div>
+          <div class="index-login">
+            <a href="/html/login.html">登录</a>
+          </div>
+        </div>
+      </header>
 
       <!--Main Content slot-->
       <router-view
@@ -22,7 +24,7 @@
       ></router-view>
 
       <!--bottom slot-->
-      <tabbar class="vux-demo-tabbar" icon-class="vux-center" v-show="!isTabbarDemo" slot="bottom">
+      <tabbar class="footer-index" icon-class="vux-center" v-show="!isTabbarDemo" slot="bottom">
         <tabbar-item v-link="{path:'/'}" :selected="route.path === '/'">
           <img v-if="route.path === '/'" slot="icon" src="./images/icon-index-red.png">
           <img v-if="route.path != '/'" slot="icon" src="./images/icon-index.png">
@@ -35,10 +37,10 @@
           <span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>分类</span></span>
         </tabbar-item>
 
-        <tabbar-item v-link="{path:'/demo'}" :selected="isDemo" badge="9">
+        <tabbar-item v-link="{path:'/shoppingCart'}" :selected="isShoppingCart" badge="9">
           <!--<span class="demo-icon-22" slot="icon">&#xe633;</span>-->
-          <img v-if="isDemo" slot="icon" src="./images/icon-cart-red.png">
-          <img v-if="!isDemo" slot="icon" src="./images/icon-cart.png">
+          <img v-if="isShoppingCart" slot="icon" src="./images/icon-cart-red.png">
+          <img v-if="!isShoppingCart" slot="icon" src="./images/icon-cart.png">
           <span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>购物车</span></span>
         </tabbar-item>
 
@@ -54,8 +56,7 @@
 
 <script>
   import store from './vuex/store'
-  import Tabbar from 'vux/dist/components/Tabbar'
-  import TabbarItem from 'vux/dist/components/Tabbar-Item'
+  import { Tabbar, TabbarItem } from './components/tabbar'
   import Loading from 'vux/dist/components/Loading'
   import ViewBox from 'vux/dist/components/View-Box'
   import XHeader from 'vux/dist/components/X-Header'
@@ -114,6 +115,9 @@
       isDemo () {
         return /component|demo/.test(this.route.path)
       },
+      isShoppingCart () {
+        return /component|shoppingCart/.test(this.route.path)
+      },
       isTabbarDemo () {
         return /tabbar/.test(this.route.path)
       },
@@ -131,16 +135,14 @@
   /*@import 'styles/index.less';*/
   /*@import './styles/weui/base/reset';*/
   @import '~vux/dist/vux.css';
-
+  @import './css/common.css';
 
   html, body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
   }
-  body {
-    background-color: #fbf9fe;
-  }
+
   /* v-r-transition, default is {forward: 'forward', back: 'back'}*/
   .forward-enter, .forward-leave {
     transform: translate3d(-100%, 0, 0);
@@ -148,43 +150,43 @@
   .back-enter, .back-leave {
     transform: translate3d(100%, 0, 0);
   }
-  .demo-icon-22 {
-    font-family: 'vux-demo';
-    font-size: 22px;
-    color: #888;
-  }
-  .weui_tabbar.vux-demo-tabbar {
-    backdrop-filter: blur(10px);
-    background-color: none;
-    background: rgba(247, 247, 250, 0.5);
-  }
-  .vux-demo-tabbar .weui_bar_item_on .demo-icon-22 {
-    color: #F70968;
-  }
-  .vux-demo-tabbar .weui_tabbar_item.weui_bar_item_on .weui_tabbar_label {
-    color: #35495e;
-  }
-  .vux-demo-tabbar .weui_tabbar_item.weui_bar_item_on .vux-demo-tabbar-icon-home {
-    color: rgb(53, 73, 94);
-  }
-  .demo-icon-22:before {
-    content: attr(icon);
-  }
-  .vux-demo-tabbar-component {
-    background-color: #F70968;
-    color: #fff;
-    border-radius: 7px;
-    padding: 0 4px;
-    line-height: 14px;
-  }
-  .weui_tabbar_icon {
-    position: relative;
-    width: 2.4rem;
-    height: 2.4rem;
-  }
-  .weui_tabbar_icon + .weui_tabbar_label {
-    margin-top: 0!important;
-  }
+  /*.demo-icon-22 {*/
+    /*font-family: 'vux-demo';*/
+    /*font-size: 22px;*/
+    /*color: #888;*/
+  /*}*/
+  /*.weui_tabbar.vux-demo-tabbar {*/
+    /*backdrop-filter: blur(10px);*/
+    /*background-color: none;*/
+    /*background: rgba(247, 247, 250, 0.5);*/
+  /*}*/
+  /*.vux-demo-tabbar .weui_bar_item_on .demo-icon-22 {*/
+    /*color: #F70968;*/
+  /*}*/
+  /*.vux-demo-tabbar .weui_tabbar_item.weui_bar_item_on .weui_tabbar_label {*/
+    /*color: #35495e;*/
+  /*}*/
+  /*.vux-demo-tabbar .weui_tabbar_item.weui_bar_item_on .vux-demo-tabbar-icon-home {*/
+    /*color: rgb(53, 73, 94);*/
+  /*}*/
+  /*.demo-icon-22:before {*/
+    /*content: attr(icon);*/
+  /*}*/
+  /*.vux-demo-tabbar-component {*/
+    /*background-color: #F70968;*/
+    /*color: #fff;*/
+    /*border-radius: 7px;*/
+    /*padding: 0 4px;*/
+    /*line-height: 14px;*/
+  /*}*/
+  /*.weui_tabbar_icon {*/
+    /*position: relative;*/
+    /*width: 2.4rem;*/
+    /*height: 2.4rem;*/
+  /*}*/
+  /*.weui_tabbar_icon + .weui_tabbar_label {*/
+    /*margin-top: 0!important;*/
+  /*}*/
   .vux-demo-header-box {
     z-index: 100;
     position: absolute;
@@ -193,7 +195,6 @@
     top: 0;
   }
   .weui_tab_bd {
-    padding-top: 46px;
   }
 
   /**

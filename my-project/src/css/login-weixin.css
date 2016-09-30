@@ -1,0 +1,23 @@
+.login{background-color: #fff;overflow: hidden;width: 90%;margin: 1rem auto 0;}
+.login input{height: 1.8rem;width: 100%;border: none;font-size: 14px;padding: 1.3rem 0;vertical-align: middle;}
+.login .login-input{border-bottom: 1px solid #f0f2f5;width: 70%;display: inline-block;}
+.login .user-name{text-align: center;}
+.login .user-name img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.login .password{text-align: center;}
+.login .password img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.login .img-code{text-align: center;position: relative;}
+.login .img-code-icon{display: inline-block;}
+.login .img-code-icon img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.login .img-code-input{width: 70%;display: inline-block;}
+.login .img-code-img{overflow: hidden;height: 4.4rem;display: inline-block;position: absolute;right: 25%;line-height: 4.4rem;}
+.login .img-code-img img{vertical-align: middle;width: 6rem;}
+.login .img-code a{font-size: 12px;color: #0067c4;position: absolute;right: 12%;top: 1.8rem;}
+.login-button{width: 90%;height: 3.6rem;margin: 0 auto;margin-top: 2rem;}
+.login-button a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+.remember{width: 90%;margin: 2rem auto;line-height:1;text-align: center;}
+.remember p{color: #666;}
+.phone-register{width: 90%;margin: 0 auto;line-height:1;text-align: center;}
+.phone-register a{color: #0067c4;}
+.not-login-but{width: 90%;height: 3.6rem;margin: 0 auto;margin-top: 2rem;}
+.not-login-but a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ccc;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+/*登录*/

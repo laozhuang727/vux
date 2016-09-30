@@ -1,0 +1,8 @@
+.band-detail{overflow: hidden;margin-top: 15px;width: 100%;}
+.band-detail ul{overflow: hidden;}
+.band-detail ul li{width: 50%;float: left;background: #fff;}
+.band-detail ul li a{display: block;border: 1px solid #f0f2f5;border-width: 1px 1px 0 0;padding: .5rem;height: auto;width: auto;}
+.band-detail ul li a img{display: block;height: 12rem;margin: 0 auto;max-width: 12rem;}
+.band-detail ul li a p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 0 .5rem;line-height: 2rem;}
+.band-detail ul li a span{color: #ff303d;padding: 0 .5rem;}
+/*品牌列表*/

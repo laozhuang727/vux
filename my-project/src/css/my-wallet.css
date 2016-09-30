@@ -1,0 +1,16 @@
+.my-wal{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.my-wal a{height: 3.6rem;display: block;border-bottom: 1px solid #f0f2f5;}
+.my-wal p{line-height: 3.6rem;float: left;color: #666;}
+.my-wal p img{margin: 0 .5rem 0 1rem;vertical-align: middle;width: 1.6rem;}
+.my-wal span{color: #ff303d;float: right;line-height: 3.6rem;}
+.my-wal span img{margin: 0 1rem 0 .5rem;vertical-align: middle;width: .8rem;height: 1.2rem;}
+.my-wal span b{color: #666;font-weight: initial;}
+/*我的钱包*/
+
+.my-wal-exp{margin: 1rem 1rem 0;}
+.my-wal-exp span{color: #666;}
+.my-wal-exp li{margin-bottom: 10px;}
+/*说明*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

@@ -1,0 +1,12 @@
+.fan{margin-top: 15px;overflow: hidden;}
+.fan p{margin-left: 1rem;}
+.fan p span{color: #ff303d;}
+.fan p b{color: #666;margin-right: 5px;font-weight: initial;}
+.fan table{background-color: #fff;text-align: center;width: 100%;margin-top: 15px;}
+.fan td{border-bottom: 1px solid #f0f2f5;height: 3.2rem;}
+.fan .tim{width: 40%;}
+.fan .gra td{color: #666;font-size: 12px;}
+/*我的粉丝*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

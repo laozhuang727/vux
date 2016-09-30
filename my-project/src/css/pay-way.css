@@ -1,0 +1,19 @@
+.pay-way{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.pay-way a{height: 3.6rem;display: block;border-bottom: 1px solid #f0f2f5;}
+.pay-way a p{line-height: 3.6rem;float: left;color: #666;}
+.pay-way a p img{margin: 0 .5rem 0 1rem;vertical-align: middle;width: 1.6rem;}
+.pay-way a span{color: #ff303d;float: right;line-height: 3.6rem;}
+.pay-way a span img{margin: 0 1rem 0 .5rem;vertical-align: middle;width: .8rem;height: 1.2rem;}
+.pay-way .ord-pri {height: 3.6rem;display: block;border-bottom: 1px solid #f0f2f5;}
+.pay-way .ord-pri p {margin-left: 1rem;line-height: 3.6rem;float: left;color: #666;}
+.pay-way .ord-pri span {margin-right: 1rem;color: #ff303d;float: right;line-height: 3.6rem;}
+.pay-way .balance{margin-top: .5rem;padding-bottom: 1.2rem;border-bottom: 1px solid #f0f2f5;}
+.pay-way .balance .bal-now li input{border: none;border: 1px solid #e4e4e4;vertical-align: middle;margin-right: 5px;}
+.pay-way .balance .bal-now li label {color: #666;}
+.pay-way .balance .bal-now li{padding: .5rem 1rem 0;color: #999;}
+.pay-way .balance .bal-now li a {color: #3f6de0;display: inline-block;height: 1.2rem;border-bottom: 0;margin-left: 5px;}
+.pay-way .balance .bal-sel p{padding: .5rem 1rem 0;color: #999;}
+.pay-way .balance .bal-sel p input{margin: 0 10px 0 5px;height: 24px;text-indent: 5px;-webkit-apperance: none;border: none;border: 1px solid #e4e4e4;}
+.pay-way .balance .bal-sel p .sure{height: 24px;width: 76px;display: inline-block;background-color: #ff303d;margin-right: 10px;color: #fff;border-radius: 3px;text-align: center;/*!  */line-height: 24px;border-bottom: 0;}
+.pay-way .balance .bal-sel p .set{display: inline-block;margin-left: 5px;color: #3f6de0;border-bottom: 0;height: 1.2rem;}
+/*支付方式*/

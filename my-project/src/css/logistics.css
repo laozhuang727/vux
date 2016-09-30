@@ -1,0 +1,23 @@
+.logistics-message{overflow: hidden;}
+.logistics-img{margin: 1rem;float: left;overflow: hidden;}
+.logistics-img img{display: block;max-width: 100px;width: 100%;}
+.logistics-int{float: left;margin: 1rem 0;}
+.logistics-int li{color: #666;margin-bottom: 1rem;line-height: 1;}
+.logistics-state p{color: #151515;float: left;line-height: 1;}
+.logistics-state span{color: #0067c4;line-height: 1;display: block;}
+.logistics-off-pho span{color: #25ae5f;line-height: 1;}
+/*物流信息*/
+
+.logistics-follow{background-color: #fff;overflow: hidden;width: 100%;}
+.logistics-follow-tit{height: 3.2rem;border-bottom: 1px solid #f0f2f5;}
+.logistics-follow-tit p{line-height: 3.2rem;margin-left: 1rem;}
+.logistics-follow-img{float: left;margin-left: 1rem;margin-top: 1rem;}
+.logistics-follow-img li{height: 64px;}
+.logistics-follow-wor{float: left;margin-top: 1rem;margin-left: 1rem;width: 88%;}
+.logistics-follow-new{height:48px;border-bottom: 1px solid #f0f2f5;margin-bottom: 15px;}
+.logistics-follow-new p{color: #0067c4;}
+.logistics-follow-new span{color: #0067c4;margin-left: 1rem;}
+.logistics-follow-bef{height:48px;border-bottom: 1px solid #f0f2f5;margin-bottom: 15px;}
+.logistics-follow-bef p{color: #666;}
+.logistics-follow-bef span{color: #666;margin-left: 1rem;}
+/*物流跟踪*/

@@ -1,0 +1,10 @@
+.comment-list{background-color: #fff;position: relative;margin-top: 15px;overflow: hidden;}
+.comment-list a{display: block;}
+.comment-com-img{margin: 1rem;float: left;overflow: hidden;width: 20%;}
+.comment-com-img img{max-width: 100px;width: 100%;}
+.comment-com-int{margin-top: 1rem;float: left;width: 70%;height: ;}
+.comment-com-int p{color: #666;overflow: hidden;width: 100%;text-overflow: ellipsis;white-space: nowrap;}
+.comment-com-int span{color: #666;margin-top: 5px;display: block;}
+.comment-cancel{background-color: #ff303d;border-radius: 5px;right: 1rem;position: absolute;bottom: 1rem;}
+.comment-cancel a{display: block;text-align: center;color: #fff;padding: 3px 7px;}
+/*评论列表公用样式*/

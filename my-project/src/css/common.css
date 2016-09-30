@@ -1,0 +1,24 @@
+*{padding: 0;margin: 0;list-style: none;text-decoration: none;font-family: 微软雅黑;color: #151515;}
+@media only screen and (max-width:768px){html,body {font-size: 62.5%;}}
+a img{border:none;max-width: 100%;box-sizing: border-box;}
+body{background-color: #f0f2f5;font-size: 14px;}
+.w768{max-width: 768px;margin:0 auto;overflow-x: visible;width: 100%;min-width: 300px;}
+/*公用部分*/
+
+header{background-color: #fff;height: 4.4rem;}
+header .back{overflow: hidden;float:left;height: 4.4rem;width: 10%;}
+header .back a{display: block;line-height: 4.4rem;margin-left: 1rem;}
+header .back a img{vertical-align: middle;height: 1.4rem;}
+header span{height: 4.4rem;float: right;width: 10%;}
+header span a{line-height: 4.4rem;font-size: 14px;margin-right: 1rem;float: right;width: 100%;text-align: right;}
+header p{height: 4.4rem;line-height: 4.4rem;text-align: center;font-size: 18px;float: left;width: 80%;margin: 0 auto;}
+/*头部*/
+
+footer{background-color: #fff;height: 5.4rem;position: fixed;z-index: 100;bottom: 0px;width: 100%;max-width: 768px;}
+footer div{text-align: center;width: 25%;height: 5.4rem;float: left;}
+footer dl{height: 5.4rem;}
+footer dl a{height: 5.4rem;}
+footer dt{height: 2.4rem;padding: .5rem 0;}
+footer dt img{display: block;margin: 0 auto;width: 2.4rem;}
+footer dd{color: #333;text-align: center;height: 2rem;}
+/*底部导航*/

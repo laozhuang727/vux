@@ -1,0 +1,104 @@
+.my-top{background-color: #ED5564;background-image: url(../images/my-banner.png);background-size: cover;text-align: center;width: 100%;height: 15rem;position: relative;z-index: 1;}
+.my-info{width: 8rem;height: 8rem;position: absolute;z-index: 1;top: 1rem;left: 1rem;}
+.my-info .default-avatar{background-image: url(../images/head-portrait.png);background-repeat: no-repeat;background-size: 100%;width: 8rem;height: 8rem;margin: 0 auto;border-radius: 100%;}
+.my-message{position: absolute;top: 2.5rem;left: 10rem;}
+.my-message a{display: block;}
+.my-message li{color: #fff;text-align: left;line-height: 1.4;}
+.my-manage{position: absolute;top: 7rem;right: 1rem;}
+.my-manage a{color: #fff;display: block;}
+.my-collect{height: 5rem;background: rgba(0,0,0,0.1);position: absolute;bottom: 0;left: 0;right: 0;}
+.my-collect span{display: inline-block;width: 33.33%;padding: .5rem 0 0;overflow: hidden;position: relative;}
+.my-collect span b{width: 2rem;height: 2rem;margin: 0 auto;line-height: 2rem;color:#fff;font-weight: initial;font-size: 20px;}
+.my-collect span p{line-height: 2rem;color: #FFF;}
+.my-collect span .goods-browse{vertical-align: top;display: inline-block;width: 2rem;height: 2rem;margin: 0 auto;background-image: url(../images/goods-browse_w.png);background-repeat: no-repeat;background-position: 50% 50%;background-size: 100%;}
+/*基本信息*/
+
+.my-order{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.my-order-title{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;}
+.my-order-title a{height: 3.6rem;display: block;}
+.my-order-title p{line-height: 3.6rem;float: left;}
+.my-order-title p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-order-title span{color: #666;float: right;line-height: 3.6rem;}
+.my-order-title span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+.my-order-con{overflow: hidden;}
+.my-order-con a{display: block;width: 25%;float: left;text-align: center;}
+.my-order-con dt{margin-top: 1rem;position: relative;}
+.my-order-con dt img{width: 2rem;}
+.my-order-con dt span{position: absolute;top: -12%;left: 55%;border-radius: 50%;border: 1px solid #ff303d;color: #ff303d;background: #fff;font-size: 10px;width: 1.4rem;height: 1.4rem;text-align: center;line-height: 1.4rem;}
+.my-order-con dd{color: #666;line-height: 1;margin-bottom: 1rem;}
+/*我的订单*/
+
+.my-wallet{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.my-wallet-title{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;}
+.my-wallet-title a{height: 3.6rem;display: block;}
+.my-wallet-title p{line-height: 3.6rem;float: left;}
+.my-wallet-title p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-wallet-title span{color: #666;float: right;line-height: 3.6rem;}
+.my-wallet-title span img{margin: 1.2rem 1rem 0rem .5rem;;width: .8rem;height: 1.2rem;float: right;display: block;}
+.my-wallet-con a{display: block;width: 25%;float: left;text-align: center;}
+.my-wallet-con dt{margin-top: 1rem;color: #666;text-align: center;}
+.my-wallet-con dt img{vertical-align: middle;margin: 0 auto .3rem;width: 2rem;display: block;}
+.my-wallet-con dd{color: #666;line-height: 1;margin-bottom: 1rem;}
+.my-wallet-con dd span{color: #ff303d;}
+/*我的钱包*/
+
+.my-share{background-color: #fff;margin-top: 15px;overflow: hidden;}
+.my-share-title{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;}
+.my-share-title a{height: 3.6rem;display: block;}
+.my-share-title p{line-height: 3.6rem;float: left;}
+.my-share-title p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-share-title span{color: #666;float: right;line-height: 3.6rem;}
+.my-share-title span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+.my-share-con{margin-top: 1rem;}
+.my-share-con a{display: block;width: 25%;float: left;text-align: center;}
+.my-share-con dt{color: #666;}
+.my-share-con dt img{vertical-align: middle;width: 2rem;margin-bottom: .3rem;}
+.my-share-con dd{color: #666;;margin-bottom: 1rem;}
+.my-share-con dd span{color: #ff303d;}
+/*我的分享*/
+
+.my-return{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;background-color: #fff;margin-top: 15px;}
+.my-return a{height: 3.6rem;display: block;}
+.my-return p{line-height: 3.6rem;float: left;}
+.my-return p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-return spanspan{color: #666;float: right;line-height: 3.6rem;}
+.my-return span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+/*我的评价*/
+
+.my-evaluate{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;background-color: #fff;}
+.my-evaluate a{height: 3.6rem;display: block;}
+.my-evaluate p{line-height: 3.6rem;float: left;}
+.my-evaluate p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-evaluate spanspan{color: #666;float: right;line-height: 3.6rem;}
+.my-evaluate span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+/*我的评价*/
+
+.my-recommend{height: 3.6rem;width:100%;background-color: #fff;}
+.my-recommend a{height: 3.6rem;display: block;}
+.my-recommend p{line-height: 3.6rem;float: left;}
+.my-recommend p img{margin: .8rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-recommend span{color: #666;float: right;line-height: 3.6rem;}
+.my-recommend span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+/*最新推荐*/
+
+.my-question{height: 3.6rem;width:100%;border-bottom: 1px solid #f0f2f5;margin-top: 15px;background-color: #fff;}
+.my-question a{height: 3.6rem;display: block;}
+.my-question p{line-height: 3.6rem;float: left;}
+.my-question p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-question span{color: #666;float: right;line-height: 3.6rem;}
+.my-question span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+/*问题咨询*/
+
+.my-view{height: 3.6rem;width:100%;background-color: #fff;}
+.my-view a{height: 3.6rem;display: block;}
+.my-view p{line-height: 3.6rem;float: left;}
+.my-view p img{margin: 1rem .5rem 0rem 1rem;;width: 1.6rem;display: block;float: left;}
+.my-view span{color: #666;float: right;line-height: 3.6rem;}
+.my-view span img{margin: 1.2rem 1rem 0rem .5rem;;width: 1rem;height: 1.2rem;float: right;display: block;}
+/*意见反馈*/
+
+.my-space{height: 5.4rem;margin-top: 15px;}
+/*空白区间*/
+
+.footer-my dd{color: #ff303d;}
+/*底部导航*/

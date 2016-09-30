@@ -1,0 +1,18 @@
+.share-com{background-color: #fff;margin-top: 1.5rem;overflow: hidden;}
+.share-lis{border-bottom: 1px solid #f0f2f5;overflow: hidden;width: 100%;}
+.share-lis-img{float: left;width: 20%;}
+.share-lis-img a{margin-left: 1rem;margin-top: 1rem;display: block;width: 5rem;height: 5rem;}
+.share-lis-int{float: left;font-size: 14px;width: 55%;overflow: hidden;}
+.share-lis-int a{margin-top: 1rem;margin-left: 1rem;display: block;}
+.share-lis-int p{color: #ff303d;margin-top: .5rem;margin-left: 1rem;}
+.share-lis-int b{color: #666;margin-left: 1rem;font-weight: initial;}
+.share-lis-int span{color: #666;font-size: 12px;text-decoration: line-through;margin-left: 1rem;display: block;margin-bottom: 1rem;}
+.share-but{float: right;width: 25%;text-align: center;}
+.share-but a{display: block;background-color: #ff303d;color: #fff;font-size: 12px;border-radius: 5px;width: 90%;height: 2.2rem;text-align: center;line-height: 2.2rem;margin-top: 1.5rem;}
+.share-but a img{margin-right: 5px;width: 1.3rem;}
+.share-but p{font-size: 12px;color: #666;margin-top: 5px;text-align: center;}
+.share-but span{/*!  */color: #ff303d;}
+/*可分享商品*/
+
+.footer-my{background-color: #ff303d;}
+/*底部导航*/

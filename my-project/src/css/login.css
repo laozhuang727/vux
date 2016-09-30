@@ -1,0 +1,32 @@
+.login{background-color: #fff;overflow: hidden;margin-top: 15px;}
+.login input{height: 1.8rem;width: 100%;border: none;font-size: 14px;padding: 1.3rem 0;vertical-align: middle;}
+.login .login-input{border-bottom: 1px solid #f0f2f5;width: 70%;display: inline-block;}
+.login .user-name{text-align: center;}
+.login .user-name img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.login .password{text-align: center;}
+.login .password img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.login .img-code{text-align: center;position: relative;}
+.login .img-code-icon{display: inline-block;}
+.login .img-code-icon img{margin-right: .5rem;vertical-align: middle;width: 2rem;}
+.login .img-code-input{width: 70%;display: inline-block;}
+.login .img-code-img{overflow: hidden;height: 4.4rem;display: inline-block;position: absolute;right: 25%;line-height: 4.4rem;}
+.login .img-code-img img{vertical-align: middle;width: 6rem;}
+.login .img-code a{font-size: 12px;color: #0067c4;position: absolute;right: 12%;top: 1.8rem;}
+.remember{font-size: 14px;width: 75%;margin: 1.5rem auto;line-height:1;}
+.remember input{margin-right: 5px;vertical-align: middle;font-size: 14px;border: none;}
+.remember a{color: #0067c4;font-size: 14px;float:right;line-height:1;}
+.login-button{width: 75%;height: 3.6rem;margin: 0 auto;margin-top: 2rem;}
+.login-button a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
+/*登录*/
+
+.other-way{margin-bottom: 100px;overflow: hidden;}
+.other-way-title{overflow: hidden;}
+.hr-left{width: 34%;float: left;margin-top: 3rem;color: #dcdcdc;opacity: 0.2;overflow: hidden;}
+.other-way span{float: left;color: #666;margin-top: 2rem;width: 30%;text-align: center;font-size: 14px;}
+.hr-right{width: 34%;float: right;margin-top: 3rem;color: #dcdcdc;opacity: 0.2;overflow: hidden;}
+.other-way-con{width: 75%;margin:3rem auto;overflow: hidden;text-align: center;}
+.other-way-con img{width: 5rem;}
+.way-qq{float: left;width: 33.3%;}
+.way-weixin{float: left;width: 33.3%;}
+.way-weibo{float: left;width: 33.3%;}
+/*其他方式登录*/
