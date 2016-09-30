@@ -11,15 +11,68 @@
         <button @click="this.show = true">Create</button>
       </div>
     </div>
+
+    <simple-grid-dialog v-bind:show.sync="show">
+      <header class="dialog-header" slot="header">
+        <h1 class="dialog-title">{{ item.customerId ? 'Edit Customer - ' + item.contactName : 'Create New Customer'
+          }}</h1>
+      </header>
+
+      <div class="dialog-body" slot="body">
+        <div v-show="item.customerId" class="form-group">
+          <label>Customer Id</label>
+          <input type="text" v-model="item.customerId" disabled="disabled"/>
+        </div>
+        <div class="form-group">
+          <label>Company Name</label>
+          <input type="text" v-model="item.companyName"/>
+        </div>
+
+        <div class="form-group">
+          <label>Contact Name</label>
+          <input type="text" v-model="item.contactName"/>
+        </div>
+
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="text" v-model="item.phone"/>
+        </div>
+        <div class="form-group">
+          <label></label>
+          <button @click="saveCustomer">Save</button>
+        </div>
+      </div>
+    </simple-grid-dialog>
+
+
+    <!--<div id="help">-->
+      <!--<loading v-show="showLoading"></loading>-->
+      <!--<modal-dialog :show="showDialog">-->
+        <!--<header class="dialog-header" slot="header">-->
+          <!--<h1 class="dialog-title">Server Error</h1>-->
+        <!--</header>-->
+        <!--<div class="dialog-body" slot="body">-->
+          <!--<p class="error">Oops,server has got some errors, error code: {{errorCode}}.</p>-->
+        <!--</div>-->
+      <!--</modal-dialog>-->
+    <!--</div>-->
+
+    <!--<simple-grid-dialog-loading></simple-grid-dialog-loading>-->
   </div>
 </template>
 
 <script>
-  import SimpleGrid from '../components/simple-grid'
+  import {
+      SimpleGrid,
+      SimpleGridDialog,
+      SimpleGridlDialogLoading
+  } from '../components/simple-grid'
 
   export default {
     components: {
-      SimpleGrid
+      SimpleGrid,
+      SimpleGridDialog,
+      SimpleGridlDialogLoading
     },
     data () {
       return {
@@ -95,6 +148,6 @@
   }
 </script>
 
-<style>
-  @import '../css/cart.css';
-</style>
+<!--<style>-->
+<!--@import '../css/cart.css';-->
+<!--</style>-->

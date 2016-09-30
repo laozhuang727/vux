@@ -23,10 +23,7 @@
 </template>
 
 <script>
-  import {parentMixin} from '../../mixins/multi-items'
-
   export default {
-    mixins: [parentMixin],
     props: {
       dataList: {
         type: Array,
