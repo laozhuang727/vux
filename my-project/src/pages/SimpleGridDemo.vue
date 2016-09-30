@@ -23,21 +23,73 @@
     },
     data () {
       return {
-        gridColumns: ['customerId', 'companyName', 'contactName', 'phone'],
+        show: false,
+        title: '',
+        gridColumns: [{
+          name: 'customerId',
+          isKey: true
+        }, {
+          name: 'companyName'
+        }, {
+          name: 'contactName'
+        }, {
+          name: 'phone'
+        }],
         gridData: [],
-        apiUrl: 'http://211.149.193.19:8080/api/customers'
+        apiUrl: 'http://211.149.193.19:8080/api/customers',
+        item: {}
       }
     },
     ready: function () {
       this.getCustomers()
     },
     methods: {
-      getCustomers: function () {
-        this.$http.get(this.apiUrl).then(function (response) {
-          this.$set('gridData', response.data)
-        }).catch(function (response) {
-          console.log(response)
+      closeDialog: function () {
+        this.show = false
+      },
+      loadCustomer: function (customerId) {
+        var vm = this
+        vm.gridData.forEach(function (item) {
+          if (item.customerId === customerId) {
+            vm.$set('item', item)
+            vm.$set('show', true)
+            return
+          }
         })
+      },
+      saveCustomer: function () {
+        this.item.customerId ? this.updateCustomer() : this.createCustomer()
+        this.show = false
+      },
+      getCustomers: function () {
+        var vm = this
+        vm.$http.get(vm.apiUrl)
+            .then(function (response) {
+              vm.$set('gridData', response.data)
+            })
+      },
+      createCustomer: function () {
+        var vm = this
+        vm.$http.post(vm.apiUrl, vm.item)
+            .then(function (response) {
+              vm.$set('item', {})
+              vm.getCustomers()
+            })
+        this.show = false
+      },
+      updateCustomer: function () {
+        var vm = this
+        vm.$http.put(this.apiUrl + '/' + vm.item.customerId, vm.item)
+            .then(function (response) {
+              vm.getCustomers()
+            })
+      },
+      deleteCustomer: function (customer) {
+        var vm = this
+        vm.$http.delete(this.apiUrl + '/' + customer.customerId)
+            .then(function (response) {
+              vm.getCustomers()
+            })
       }
     }
   }
