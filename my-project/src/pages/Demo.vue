@@ -1,6 +1,10 @@
 <template>
   <div>
     <group title="Form" title-color="#04be02">
+      <cell title="simpleGridDemo" link="component/simpleGridDemo">
+        <span class="demo-icon" slot="icon">&#xe61b;</span>
+      </cell>
+
       <cell title="address" link="component/address">
         <span class="demo-icon" slot="icon">&#xe61b;</span>
       </cell>

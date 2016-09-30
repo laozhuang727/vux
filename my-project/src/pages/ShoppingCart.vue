@@ -189,10 +189,12 @@
       Group,
       Cell
     },
-    data: {
-      gridColumns: ['customerId', 'companyName', 'contactName', 'phone'],
-      gridData: [],
-      apiUrl: 'http://211.149.193.19:8080/api/customers'
+    data () {
+      return {
+        gridColumns: ['customerId', 'companyName', 'contactName', 'phone'],
+        gridData: [],
+        apiUrl: 'http://211.149.193.19:8080/api/customers'
+      }
     },
     ready: function () {
       this.getCustomers()

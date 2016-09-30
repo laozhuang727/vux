@@ -5,6 +5,7 @@ import App from './App'
 
 import Demo from './pages/Demo'
 import Search from './pages/Search'
+import SimpleGridDemo from './pages/SimpleGridDemo'
 import Flexbox from './pages/Flexbox'
 import ShoppingCart from './pages/ShoppingCart'
 
@@ -75,6 +76,9 @@ router.map({
   },
   '/component/search': {
     component: Search
+  },
+  '/component/simpleGridDemo': {
+    component: SimpleGridDemo
   }
 })
 
