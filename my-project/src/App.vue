@@ -3,20 +3,7 @@
     <loading :show="isLoading" position="absolute"></loading>
     <view-box v-ref:view-box>
       <!--header slot-->
-      <header>
-        <div class="index-header">
-          <div class="logo">
-            <img src="./images/logo.png" alt="">
-          </div>
-          <div class="index-search-box">
-            <input type="text" placeholder="搜索...">
-            <img src="./images/icon-search.png" alt="">
-          </div>
-          <div class="index-login">
-            <a href="/html/login.html">登录</a>
-          </div>
-        </div>
-      </header>
+
 
       <!--Main Content slot-->
       <router-view
