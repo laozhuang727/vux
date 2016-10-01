@@ -1,12 +1,8 @@
 <template>
   <div>
-    <header>
-      <div class="back">
-        <a href="#">
-        </a>
-      </div>
+    <nv-head>
       <p>购物车</p>
-    </header>
+    </nv-head>
     <!-- 头部 -->
     <div class="commodity">
       <div class="comm-tit">
@@ -187,7 +183,8 @@
     components: {
       Search,
       Group,
-      Cell
+      Cell,
+      'nvHead': require('../components/header.vue')
     },
     data () {
       return {

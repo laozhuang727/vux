@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <simple-grid :data-list="gridData" :columns="gridColumns" v-on:load-entry="loadCustomer"
+      <simple-grid :data-list="gridData" :columns.sync="gridColumns" v-on:load-entry="loadCustomer"
                    v-on:delete-entry="deleteCustomer">
       </simple-grid>
     </div>
@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <simple-grid-dialog v-bind:show.sync="show">
+    <loading-popup-dialog v-bind:show.sync="show">
       <header class="dialog-header" slot="header">
         <h1 class="dialog-title">{{ item.customerId ? 'Edit Customer - ' + item.contactName : 'Create New Customer'
           }}</h1>
@@ -42,20 +42,20 @@
           <button @click="saveCustomer">Save</button>
         </div>
       </div>
-    </simple-grid-dialog>
+    </loading-popup-dialog>
 
 
-    <!--<div id="help">-->
-      <!--<loading v-show="showLoading"></loading>-->
-      <!--<modal-dialog :show="showDialog">-->
-        <!--<header class="dialog-header" slot="header">-->
-          <!--<h1 class="dialog-title">Server Error</h1>-->
-        <!--</header>-->
-        <!--<div class="dialog-body" slot="body">-->
-          <!--<p class="error">Oops,server has got some errors, error code: {{errorCode}}.</p>-->
-        <!--</div>-->
-      <!--</modal-dialog>-->
-    <!--</div>-->
+    <div id="help">
+      <loading-three-bounce v-show="help.showLoading"></loading-three-bounce>
+      <loading-popup-dialog :show="help.showDialog">
+        <header class="dialog-header" slot="header">
+          <h1 class="dialog-title">Server Error</h1>
+        </header>
+        <div class="dialog-body" slot="body">
+          <p class="error">Oops,server has got some errors, error code: {{errorCode}}.</p>
+        </div>
+      </loading-popup-dialog>
+    </div>
 
     <!--<simple-grid-dialog-loading></simple-grid-dialog-loading>-->
   </div>
@@ -63,16 +63,21 @@
 
 <script>
   import {
-      SimpleGrid,
-      SimpleGridDialog,
-      SimpleGridlDialogLoading
+      SimpleGrid
   } from '../components/simple-grid'
+  import {
+      LoadingTips,
+      LoadingPopupDialog,
+      LoadingThreeBounce
+  } from '../components/loading'
+  import Vue from 'vue'
 
   export default {
     components: {
       SimpleGrid,
-      SimpleGridDialog,
-      SimpleGridlDialogLoading
+      LoadingThreeBounce,
+      LoadingPopupDialog,
+      LoadingTips
     },
     data () {
       return {
@@ -95,6 +100,32 @@
     },
     ready: function () {
       this.getCustomers()
+      help = new Vue({
+        el: '#help',
+        data: {
+          showLoading: false,
+          showDialog: true,
+          errorCode: ''
+        },
+        components: {
+          LoadingPopupDialog,
+          LoadingThreeBounce
+        }
+      })
+      Vue.http.interceptors.push(function (request, next) {
+        debugger
+        help.showLoading = true
+        next(function (response) {
+          if (!response.ok) {
+            debugger
+            help.errorCode = response.status
+            help.showDialog = true
+          }
+          debugger
+          help.showDialog = true
+          return response
+        })
+      })
     },
     methods: {
       closeDialog: function () {
@@ -142,10 +173,15 @@
         vm.$http.delete(this.apiUrl + '/' + customer.customerId)
             .then(function (response) {
               vm.getCustomers()
+            }, function (response) {
+              // 响应错误回调
+              alert(response.statusText)
             })
       }
     }
   }
+
+  var help
 </script>
 
 <!--<style>-->
