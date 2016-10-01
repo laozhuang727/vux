@@ -45,17 +45,8 @@
     </loading-popup-dialog>
 
 
-    <div id="help">
-      <loading-three-bounce v-show="help.showLoading"></loading-three-bounce>
-      <loading-popup-dialog :show="help.showDialog">
-        <header class="dialog-header" slot="header">
-          <h1 class="dialog-title">Server Error</h1>
-        </header>
-        <div class="dialog-body" slot="body">
-          <p class="error">Oops,server has got some errors, error code: {{errorCode}}.</p>
-        </div>
-      </loading-popup-dialog>
-    </div>
+    <loading-tips v-bind:show-loading.sync="loadingTips.showLoading"
+                  v-bind:show-dialog.sync="loadingTips.showDialog"></loading-tips>
 
     <!--<simple-grid-dialog-loading></simple-grid-dialog-loading>-->
   </div>
@@ -82,6 +73,10 @@
     data () {
       return {
         show: false,
+        loadingTips: {
+          showLoading: false,
+          showDialog: false
+        },
         title: '',
         gridColumns: [{
           name: 'customerId',
@@ -100,29 +95,26 @@
     },
     ready: function () {
       this.getCustomers()
-      help = new Vue({
-        el: '#help',
-        data: {
-          showLoading: false,
-          showDialog: true,
-          errorCode: ''
-        },
-        components: {
-          LoadingPopupDialog,
-          LoadingThreeBounce
-        }
-      })
+//      help = new Vue({
+//        el: '#help',
+//        data: {
+//          showLoading: false,
+//          showDialog: false,
+//          errorCode: ''
+//        },
+//        components: {
+//          LoadingPopupDialog,
+//          LoadingThreeBounce
+//        }
+//      })
       Vue.http.interceptors.push(function (request, next) {
-        debugger
-        help.showLoading = true
+        this.loadingTips.showLoading = true
         next(function (response) {
           if (!response.ok) {
-            debugger
-            help.errorCode = response.status
-            help.showDialog = true
+            this.loadingTips.errorCode = response.status
+            this.loadingTips.showDialog = true
           }
-          debugger
-          help.showDialog = true
+          this.loadingTips.showDialog = false
           return response
         })
       })
@@ -180,8 +172,6 @@
       }
     }
   }
-
-  var help
 </script>
 
 <!--<style>-->

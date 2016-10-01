@@ -22,6 +22,21 @@
   export default{
     components: {
       LoadingThreeBounce, LoadingPopupDialog
+    },
+    props: {
+      showLoading: {
+        type: Boolean,
+        required: true,
+        twoWay: true
+      },
+      showDialog: {
+        type: Boolean,
+        required: true,
+        twoWay: true
+      },
+      errorCode: {
+        type: String
+      }
     }
   }
 </script>
