@@ -24,8 +24,13 @@
     },
     methods: {
       close: function () {
+        debugger
         this.show = false
       }
     }
   }
 </script>
+
+<style lang="less">
+  @import '../../styles/grid/iconfont/iconfont.less';
+</style>

@@ -46,7 +46,5 @@
 </script>
 
 <style lang="less">
-  @import '../../styles/grid/grid-style.less';
-  /*@import '../../styles/grid/fonts/demo.less';*/
-
+  @import '../../styles/grid/grid.less';
 </style>

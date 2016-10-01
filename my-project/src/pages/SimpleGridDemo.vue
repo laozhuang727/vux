@@ -114,7 +114,7 @@
             this.loadingTips.errorCode = response.status
             this.loadingTips.showDialog = true
           }
-          this.loadingTips.showDialog = false
+          this.loadingTips.showLoading = false
           return response
         })
       })
