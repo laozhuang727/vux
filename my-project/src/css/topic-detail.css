@@ -2,7 +2,7 @@
 
 .topic-detail .top-det-ban{overflow: hidden;position: relative;}
 .top-det-ban img{display: block;width: 100%;}
-.top-det-ban .act-time{background: url(../images/time-bg.png) no-repeat;width: 10rem;height: 8rem;right: 1rem;top: -1.2rem;position: absolute;background-size: contain;}
+.top-det-ban .act-time{background: url(../assets/images/time-bg.png) no-repeat;width: 10rem;height: 8rem;right: 1rem;top: -1.2rem;position: absolute;background-size: contain;}
 .top-det-ban .act-time h5{font-weight: normal;color: #fff;text-align: center;margin-top: 30%;}
 .top-det-ban .act-time p{margin-top: 7%;text-align: center;}
 .top-det-ban .act-time p span{font-size: 12px;}

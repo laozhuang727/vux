@@ -10,7 +10,7 @@
 
 .shop-mes {
   height: 10rem;
-  background: url(../images/my-banner1.jpg) no-repeat;
+  background: url(../assets/images/my-banner1.jpg) no-repeat;
   width: 100%;
   max-width: 768px;
   position: relative;
@@ -81,7 +81,7 @@
 }
 .shop-mes .rig ul li a {
   padding-left: 1.8rem;
-  background: url(../images/commodity-focus-gray.png) no-repeat left;
+  background: url(../assets/images/commodity-focus-gray.png) no-repeat left;
   background-size: 1.2rem;
   color: #fff;
 }
@@ -199,7 +199,7 @@
 .ind-list .bot a {
   line-height: 3.2rem;
   padding-right: 1.9rem;
-  background: url(../images/more-arrow.png) no-repeat right;
+  background: url(../assets/images/more-arrow.png) no-repeat right;
   background-size: 1.4rem;
   display: inline-block;
   height: 3.2rem;

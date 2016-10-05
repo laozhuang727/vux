@@ -6,19 +6,19 @@
     <!-- 头部 -->
     <div class="commodity">
       <div class="comm-tit">
-        <a href="#"><img src="../images/check-gray.png" alt="">
-          <img src="../images/checked.png" alt="" style="display:none;"><span>汉米尔顿(Hamilton)旗舰店</span></a>
+        <a href="#"><img src="../assets/images/check-gray.png" alt="">
+          <img src="../assets/images/checked.png" alt="" style="display:none;"><span>汉米尔顿(Hamilton)旗舰店</span></a>
       </div>
       <div class="comm-con">
         <div class="check">
           <a href="#">
-            <img src="../images/check-gray.png" alt="">
-            <img src="../images/checked.png" alt="" style="display:none;">
+            <img src="../assets/images/check-gray.png" alt="">
+            <img src="../assets/images/checked.png" alt="" style="display:none;">
           </a>
         </div>
         <div class="commodity-banner">
           <a href="#">
-            <img src="../images/cart-banner.jpg" alt="">
+            <img src="../assets/images/cart-banner.jpg" alt="">
           </a>
         </div>
         <div class="commodity-int">
@@ -37,7 +37,7 @@
         </div>
         <div class="commodity-delete">
           <a href="#">
-            <img src="../images/address-delete.png" alt="">
+            <img src="../assets/images/address-delete.png" alt="">
           </a>
         </div>
       </div>
@@ -45,19 +45,19 @@
     <!-- 商品（未选择） -->
     <div class="commodity">
       <div class="comm-tit">
-        <a href="#"><img src="../images/check-gray.png" alt="">
-          <img src="../images/checked.png" alt="" style="display:none;"><span>汉米尔顿(Hamilton)旗舰店</span></a>
+        <a href="#"><img src="../assets/images/check-gray.png" alt="">
+          <img src="../assets/images/checked.png" alt="" style="display:none;"><span>汉米尔顿(Hamilton)旗舰店</span></a>
       </div>
       <div class="comm-con">
         <div class="check">
           <a href="#">
-            <img src="../images/check-gray.png" alt="">
-            <img src="../images/checked.png" alt="" style="display:none;">
+            <img src="../assets/images/check-gray.png" alt="">
+            <img src="../assets/images/checked.png" alt="" style="display:none;">
           </a>
         </div>
         <div class="commodity-banner">
           <a href="#">
-            <img src="../images/cart-banner.jpg" alt="">
+            <img src="../assets/images/cart-banner.jpg" alt="">
           </a>
         </div>
         <div class="commodity-int">
@@ -76,7 +76,7 @@
         </div>
         <div class="commodity-delete">
           <a href="#">
-            <img src="../images/address-delete.png" alt="">
+            <img src="../assets/images/address-delete.png" alt="">
           </a>
         </div>
       </div>
@@ -84,18 +84,18 @@
     <!-- 商品（未选择） -->
     <div class="commodity">
       <div class="comm-tit">
-        <a href="#"><img src="../images/check-gray.png" alt="" style="display: none;"><img src="../images/checked.png"
-                                                                                           alt=""><span>汉米尔顿(Hamilton)旗舰店</span></a>
+        <a href="#"><img src="../assets/images/check-gray.png" alt="" style="display: none;"><img src="../assets/images/checked.png"
+                                                                                                  alt=""><span>汉米尔顿(Hamilton)旗舰店</span></a>
       </div>
       <div class="comm-con">
         <div class="check">
           <a href="#">
-            <img src="../images/check-gray.png" alt="" style="display: none;"><img src="../images/checked.png" alt="">
+            <img src="../assets/images/check-gray.png" alt="" style="display: none;"><img src="../assets/images/checked.png" alt="">
           </a>
         </div>
         <div class="commodity-banner">
           <a href="#">
-            <img src="../images/cart-banner.jpg" alt="">
+            <img src="../assets/images/cart-banner.jpg" alt="">
           </a>
         </div>
         <div class="commodity-int">
@@ -116,19 +116,19 @@
         </div>
         <div class="commodity-delete">
           <a href="#">
-            <img src="../images/address-delete.png" alt="">
+            <img src="../assets/images/address-delete.png" alt="">
           </a>
         </div>
       </div>
       <div class="comm-con">
         <div class="check">
           <a href="#">
-            <img src="../images/check-gray.png" alt="" style="display: none;"><img src="../images/checked.png" alt="">
+            <img src="../assets/images/check-gray.png" alt="" style="display: none;"><img src="../assets/images/checked.png" alt="">
           </a>
         </div>
         <div class="commodity-banner">
           <a href="#">
-            <img src="../images/cart-banner.jpg" alt="">
+            <img src="../assets/images/cart-banner.jpg" alt="">
           </a>
         </div>
         <div class="commodity-int">
@@ -149,7 +149,7 @@
         </div>
         <div class="commodity-delete">
           <a href="#">
-            <img src="../images/address-delete.png" alt="">
+            <img src="../assets/images/address-delete.png" alt="">
           </a>
         </div>
       </div>
@@ -160,8 +160,8 @@
     <div class="balance">
       <div class="balance-check">
         <a href="#">
-          <img src="../images/check-gray.png" alt="" style="display: none;"/>
-          <img src="../images/checked.png" alt=""/>
+          <img src="../assets/images/check-gray.png" alt="" style="display: none;"/>
+          <img src="../assets/images/checked.png" alt=""/>
         </a>
       </div>
       <span>全选</span>

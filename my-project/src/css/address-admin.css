@@ -5,8 +5,8 @@
 .address-admin-name span{line-height: 3.2rem;float: left;}
 .address-admin-default{float: right;margin-right: 1rem;}
 .address-admin-default p{color: #666;line-height: 3.2rem;float: left;margin-right: .5rem;}
-.address-admin-default .default-gray{background: url(../images/default-gray.png) no-repeat;float: right;width: 2.6rem;height: 1.4rem;margin-top: .9rem;display: block;background-size: 2.6rem 1.4rem;}
-.address-admin-default .default-red{background: url(../images/default-red.png) no-repeat;float: right;width: 2.6rem;height: 1.4rem;margin-top: 1rem;display: block;background-size: 2.6rem 1.4rem;}
+.address-admin-default .default-gray{background: url(../assets/images/default-gray.png) no-repeat;float: right;width: 2.6rem;height: 1.4rem;margin-top: .9rem;display: block;background-size: 2.6rem 1.4rem;}
+.address-admin-default .default-red{background: url(../assets/images/default-red.png) no-repeat;float: right;width: 2.6rem;height: 1.4rem;margin-top: 1rem;display: block;background-size: 2.6rem 1.4rem;}
 .address-admin-bottom{height: 1.6rem;}
 .address-admin-address{float: left;width: 63%;margin-bottom: .5rem;}
 .address-admin-address p{color: #666;overflow: hidden;margin-left: 1rem;width: 90%;}

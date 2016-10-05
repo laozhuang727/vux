@@ -8,6 +8,7 @@ import Search from './pages/Search'
 import SimpleGridDemo from './pages/SimpleGridDemo'
 import Flexbox from './pages/Flexbox'
 import ShoppingCart from './pages/ShoppingCart'
+import Classify from './pages/Classify.vue'
 
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
@@ -70,6 +71,9 @@ router.map({
   },
   '/shoppingCart': {
     component: ShoppingCart
+  },
+  '/classify': {
+    component: Classify
   },
   '/component/flexbox': {
     component: Flexbox

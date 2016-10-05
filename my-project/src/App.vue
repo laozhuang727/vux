@@ -13,29 +13,50 @@
       <!--bottom slot-->
       <tabbar class="footer-index" icon-class="vux-center" v-show="!isTabbarDemo" slot="bottom">
         <tabbar-item v-link="{path:'/'}" :selected="route.path === '/'">
-          <img v-if="route.path === '/'" slot="icon" src="./images/icon-index-red.png">
-          <img v-if="route.path != '/'" slot="icon" src="./images/icon-index.png">
+          <img v-if="route.path === '/'" slot="icon" src="assets/images/icon-index-red.png">
+          <img v-if="route.path != '/'" slot="icon" src="assets/images/icon-index.png">
           <span slot="label">首页</span>
         </tabbar-item>
-        <tabbar-item v-link="{path:'/demo'}" :selected="isDemo" badge="9">
+
+        <tabbar-item v-link="{path:'/classify'}" :selected="isDemo" badge="9">
           <!--<span class="demo-icon-22" slot="icon">&#xe633;</span>-->
-          <img v-if="isDemo" slot="icon" src="./images/icon-classify-red.png">
-          <img v-if="!isDemo" slot="icon" src="./images/icon-classify.png">
+          <img v-if="route.path === '/classify'" slot="icon" src="assets/images/icon-classify-red.png">
+          <img v-if="route.path !== '/classify'" slot="icon" src="assets/images/icon-classify.png">
           <span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>分类</span></span>
         </tabbar-item>
 
         <tabbar-item v-link="{path:'/shoppingCart'}" :selected="isShoppingCart" badge="9">
           <!--<span class="demo-icon-22" slot="icon">&#xe633;</span>-->
-          <img v-if="isShoppingCart" slot="icon" src="./images/icon-cart-red.png">
-          <img v-if="!isShoppingCart" slot="icon" src="./images/icon-cart.png">
+          <img v-if="isShoppingCart" slot="icon" src="assets/images/icon-cart-red.png">
+          <img v-if="!isShoppingCart" slot="icon" src="assets/images/icon-cart.png">
           <span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>购物车</span></span>
         </tabbar-item>
 
-        <tabbar-item v-link="{path:'/project/donate'}" :selected="route.path === '/project/donate'" show-dot>
-          <img v-if="route.path === '/project/donate'" slot="icon" src="./images/icon-my-red.png">
-          <img v-if="route.path != '/project/donate'" slot="icon" src="./images/icon-my.png">
+        <tabbar-item v-link="{path:'/demo'}" :selected="isDemo" badge="9">
+          <img v-if="isDemo" slot="icon" src="assets/images/icon-my-red.png">
+          <img v-if="!isDemo" slot="icon" src="assets/images/icon-my.png">
           <span slot="label">我的</span>
         </tabbar-item>
+
+        <!--<tabbar-item v-link="{path:'/demo'}" :selected="isDemo" badge="9">-->
+          <!--&lt;!&ndash;<span class="demo-icon-22" slot="icon">&#xe633;</span>&ndash;&gt;-->
+          <!--<img v-if="isDemo" slot="icon" src="./images/icon-classify-red.png">-->
+          <!--<img v-if="!isDemo" slot="icon" src="./images/icon-classify.png">-->
+          <!--<span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>分类</span></span>-->
+        <!--</tabbar-item>-->
+
+        <!--<tabbar-item v-link="{path:'/shoppingCart'}" :selected="isShoppingCart" badge="9">-->
+          <!--&lt;!&ndash;<span class="demo-icon-22" slot="icon">&#xe633;</span>&ndash;&gt;-->
+          <!--<img v-if="isShoppingCart" slot="icon" src="./images/icon-cart-red.png">-->
+          <!--<img v-if="!isShoppingCart" slot="icon" src="./images/icon-cart.png">-->
+          <!--<span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>购物车</span></span>-->
+        <!--</tabbar-item>-->
+
+        <!--<tabbar-item v-link="{path:'/project/donate'}" :selected="route.path === '/project/donate'" show-dot>-->
+          <!--<img v-if="route.path === '/project/donate'" slot="icon" src="./images/icon-my-red.png">-->
+          <!--<img v-if="route.path != '/project/donate'" slot="icon" src="./images/icon-my.png">-->
+          <!--<span slot="label">我的</span>-->
+        <!--</tabbar-item>-->
       </tabbar>
     </view-box>
   </div>

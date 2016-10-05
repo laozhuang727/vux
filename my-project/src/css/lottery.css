@@ -16,7 +16,7 @@
 
 .rotary-main {
   position: relative;
-  background: url(../images/zpbg.png);
+  background: url(../assets/images/zpbg.png);
   background-repeat: no-repeat;
   height: 300px;
   width: 300px;
@@ -25,7 +25,7 @@
 }
 
 .rotary-btn {
-  background: url(../images/go.png);
+  background: url(../assets/images/go.png);
   background-repeat: no-repeat;
   width: 116px;
   background-size: 116px;

@@ -4,11 +4,11 @@
       <header>
         <div class="index-header">
           <div class="logo">
-            <img src="../images/logo.png" alt="">
+            <img src="../assets/images/logo.png" alt="">
           </div>
           <div class="index-search-box">
             <input type="text" placeholder="搜索...">
-            <img src="../images/icon-search.png" alt="">
+            <img src="../assets/images/icon-search.png" alt="">
           </div>
           <div class="index-login">
             <a href="/html/login.html">登录</a>
@@ -18,7 +18,7 @@
       <!-- 顶部 -->
       <div class="banner">
         <a href="#">
-          <img src="../images/index-banner01.jpg" alt="">
+          <img src="../assets/images/index-banner01.jpg" alt="">
         </a>
       </div>
       <!-- banner -->
@@ -26,7 +26,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-com-pro.png" alt="">
+              <img src="../assets/images/icon-com-pro.png" alt="">
             </a>
           </dt>
           <dd>
@@ -36,7 +36,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-hot-sal.png" alt="">
+              <img src="../assets/images/icon-hot-sal.png" alt="">
             </a>
           </dt>
           <dd>
@@ -46,7 +46,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-sal-pro.png" alt="">
+              <img src="../assets/images/icon-sal-pro.png" alt="">
             </a>
           </dt>
           <dd>
@@ -56,7 +56,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-gro-buy.png" alt="">
+              <img src="../assets/images/icon-gro-buy.png" alt="">
             </a>
           </dt>
           <dd>
@@ -66,7 +66,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-points.png" alt="">
+              <img src="../assets/images/icon-points.png" alt="">
             </a>
           </dt>
           <dd>
@@ -76,7 +76,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-trial.png" alt="">
+              <img src="../assets/images/icon-trial.png" alt="">
             </a>
           </dt>
           <dd>
@@ -86,7 +86,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-category.png" alt="">
+              <img src="../assets/images/icon-category.png" alt="">
             </a>
           </dt>
           <dd>
@@ -96,7 +96,7 @@
         <dl>
           <dt>
             <a href="#">
-              <img src="../images/icon-brand.png" alt="">
+              <img src="../assets/images/icon-brand.png" alt="">
             </a>
           </dt>
           <dd>
@@ -114,7 +114,7 @@
           <dl>
             <dt>
               <a href="#">
-                <img src="../images/hot-sale-banner01.jpg" alt="">
+                <img src="../assets/images/hot-sale-banner01.jpg" alt="">
               </a>
             </dt>
             <dd class="prize">
@@ -124,7 +124,7 @@
           <dl>
             <dt>
               <a href="#">
-                <img src="../images/hot-sale-banner02.jpg" alt="">
+                <img src="../assets/images/hot-sale-banner02.jpg" alt="">
               </a>
             </dt>
             <dd class="prize">
@@ -134,7 +134,7 @@
           <dl>
             <dt>
               <a href="#">
-                <img src="../images/hot-sale-banner03.jpg" alt="">
+                <img src="../assets/images/hot-sale-banner03.jpg" alt="">
               </a>
             </dt>
             <dd class="prize">
@@ -144,7 +144,7 @@
           <dl>
             <dt>
               <a href="#">
-                <img src="../images/hot-sale-banner04.jpg" alt="">
+                <img src="../assets/images/hot-sale-banner04.jpg" alt="">
               </a>
             </dt>
             <dd class="prize">
@@ -156,7 +156,7 @@
       <!-- 热卖推荐 -->
       <div class="guanggao">
         <a href="#">
-          <img src="../images/guanggao.jpg" alt="">
+          <img src="../assets/images/guanggao.jpg" alt="">
         </a>
       </div>
       <!-- 广告 -->
@@ -167,19 +167,19 @@
         </div>
         <div class="activite-left">
           <a href="#">
-            <img src="../images/activity-banner01.jpg" alt="">
+            <img src="../assets/images/activity-banner01.jpg" alt="">
           </a>
         </div>
         <div class="activite-right">
           <ul>
             <li class="activite-right-up">
               <a href="#">
-                <img src="../images/activity-banner02.jpg" alt="">
+                <img src="../assets/images/activity-banner02.jpg" alt="">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../images/activity-banner03.jpg" alt="">
+                <img src="../assets/images/activity-banner03.jpg" alt="">
               </a>
             </li>
           </ul>
@@ -195,19 +195,19 @@
           <ul>
             <li class="new-left-up">
               <a href="#">
-                <img src="../images/new-banner01.jpg" alt="">
+                <img src="../assets/images/new-banner01.jpg" alt="">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../images/new-banner02.jpg" alt="">
+                <img src="../assets/images/new-banner02.jpg" alt="">
               </a>
             </li>
           </ul>
         </div>
         <div class="new-right">
           <a href="#">
-            <img src="../images/new-banner03.jpg" alt="">
+            <img src="../assets/images/new-banner03.jpg" alt="">
           </a>
         </div>
       </div>
@@ -221,7 +221,7 @@
           <ul>
             <li v-for="item in items">
               <a href="#">
-                <img src="../images/themes-banner01.jpg" alt="">
+                <img src="../assets/images/themes-banner01.jpg" alt="">
               </a>
             </li>
 

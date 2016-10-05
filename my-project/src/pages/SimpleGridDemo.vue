@@ -95,18 +95,7 @@
     },
     ready: function () {
       this.getCustomers()
-//      help = new Vue({
-//        el: '#help',
-//        data: {
-//          showLoading: false,
-//          showDialog: false,
-//          errorCode: ''
-//        },
-//        components: {
-//          LoadingPopupDialog,
-//          LoadingThreeBounce
-//        }
-//      })
+
       Vue.http.interceptors.push(function (request, next) {
         this.loadingTips.showLoading = true
         next(function (response) {

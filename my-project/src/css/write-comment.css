@@ -4,7 +4,7 @@
 .write-comment-img a img{display: block;max-width: 100px;width: 100%;}
 .star-level{float: left;margin-top: 1rem;}
 .star-level p{margin-top: 1rem;}
-.star-level a{margin-top: 1rem;display: block;background: url(../images/star-level.png) no-repeat center 0;background-position: -4px -3px;background-size: 100px;height: 16px;width: 15rem;}
+.star-level a{margin-top: 1rem;display: block;background: url(../assets/images/star-level.png) no-repeat center 0;background-position: -4px -3px;background-size: 100px;height: 16px;width: 15rem;}
 .write-comment-now{width: 75%;height: 3.6rem;margin: 0 auto;margin-top: 2rem;}
 .write-comment-now a{color: #fff;height: 3.6rem;line-height: 3.6rem;background-color: #ff303d;text-align: center;display: block;border-radius: 5px;font-size: 16px;}
 .write-comment-con{overflow: hidden;position: relative;}
