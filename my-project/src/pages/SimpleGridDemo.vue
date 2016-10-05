@@ -163,6 +163,6 @@
   }
 </script>
 
-<!--<style>-->
-<!--@import '../css/cart.css';-->
-<!--</style>-->
+<style lang="less" scoped>
+  @import '../styles/grid/grid.less';
+</style>

@@ -9,7 +9,7 @@
       <div class="classify-left">
         <ul>
           <li v-for="firstLevelCategory in pageData.firstLevelCategories">
-            <a @click="onItemClick(firstLevelCategory)">
+            <a @click="getSecondLevelCategories(firstLevelCategory)">
               <img :src="loadStaticImg(firstLevelCategory.icon)" alt="">
             </a>
             <span :class="{'arrow': pageData.selectedFirstLevelCategory == firstLevelCategory.id}">
@@ -65,7 +65,11 @@
         },
         apiFirstLevelUrl: 'http://localhost:8080/api/categories/firstLevelCategories',
         apiSecondLevelUrl: 'http://localhost:8080/api/categories/subCategories',
-        apiThirdLevelUrl: 'http://localhost:8080/api/categories/subCategories'
+        apiThirdLevelUrl: 'http://localhost:8080/api/categories/subCategories',
+        loadingTips: {
+          showLoading: false,
+          showDialog: false
+        }
       }
     },
     ready: function () {
@@ -74,10 +78,6 @@
     methods: {
       loadStaticImg: function (path) {
         return require('../assets/' + path)
-      },
-      onItemClick: function (firstLevelCategory) {
-        this.pageData.selectedFirstLevelCategory = firstLevelCategory.id
-        this.getSecondLevelCategories(firstLevelCategory.id)
       },
       getFirstLevelCategories: function () {
         var vm = this
@@ -88,17 +88,27 @@
         vm.$http.get(vm.apiFirstLevelUrl)
             .then(function (response) {
               vm.$set('pageData.firstLevelCategories', response.data)
-//              console.log(response)
+              console.log(response)
+
+              if (vm.pageData.firstLevelCategories.length > 0) {
+                this.getSecondLevelCategories(vm.pageData.firstLevelCategories[0])
+              }
             })
       },
-      getSecondLevelCategories: function (categoryId) {
+      getSecondLevelCategories: function (firstLevelCategory) {
         var vm = this
-        vm.pageData.thirdLevelCategories = []
 
-        vm.$http.get(vm.apiSecondLevelUrl, {params: {categoryId: categoryId}})
+        vm.pageData.selectedFirstLevelCategory = firstLevelCategory.id
+        vm.pageData.thirdLevelCategories = []
+        vm.pageData.selectedSecondLevelCategory = ''
+
+        vm.$http.get(vm.apiSecondLevelUrl, {params: {categoryId: firstLevelCategory.id}})
             .then(function (response) {
               vm.$set('pageData.secondLevelCategories', response.data)
-              console.log(response)
+//              console.log(response)
+              if (vm.pageData.secondLevelCategories.length > 0) {
+                this.getThirdLevelCategories(vm.pageData.secondLevelCategories[0])
+              }
             })
       },
       getThirdLevelCategories: function (secondLevelCategory) {
@@ -107,13 +117,13 @@
         vm.$http.get(vm.apiThirdLevelUrl, {params: {categoryId: secondLevelCategory.id}})
             .then(function (response) {
               vm.$set('pageData.thirdLevelCategories', response.data)
-              console.log(response)
+//              console.log(response)
             })
       }
     }
   }
 </script>
 
-<style>
+<style lang="less" scoped>
   @import '../css/classify.css';
 </style>

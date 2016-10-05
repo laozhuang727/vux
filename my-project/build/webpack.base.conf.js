@@ -82,6 +82,7 @@ module.exports = {
     formatter: require('eslint-friendly-formatter')
   },
   vue: {
-    loaders: utils.cssLoaders()
+    // 临时屏蔽掉,为了测试方便 ryan 2016-11-8
+    // loaders: utils.cssLoaders()
   }
 }

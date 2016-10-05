@@ -275,7 +275,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
 @import '../css/style.css';
 .center {
   margin-top: 15px;

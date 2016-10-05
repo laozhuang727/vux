@@ -84,13 +84,17 @@
     <!-- 商品（未选择） -->
     <div class="commodity">
       <div class="comm-tit">
-        <a href="#"><img src="../assets/images/check-gray.png" alt="" style="display: none;"><img src="../assets/images/checked.png"
-                                                                                                  alt=""><span>汉米尔顿(Hamilton)旗舰店</span></a>
+        <a href="#"><img src="../assets/images/check-gray.png" alt="" style="display: none;">
+          <img src="../assets/images/checked.png"
+               alt=""/>
+          <span>汉米尔顿(Hamilton)旗舰店</span>
+        </a>
       </div>
       <div class="comm-con">
         <div class="check">
           <a href="#">
-            <img src="../assets/images/check-gray.png" alt="" style="display: none;"><img src="../assets/images/checked.png" alt="">
+            <img src="../assets/images/check-gray.png" alt="" style="display: none;"><img
+              src="../assets/images/checked.png" alt="">
           </a>
         </div>
         <div class="commodity-banner">
@@ -109,9 +113,7 @@
             <span>¥5599.00</span>
           </div>
           <div class="commodity-num">
-            <a href="#">－</a>
-            <input type="text" value="1">
-            <a href="#">＋</a>
+            <a href="#">－</a><input type="text" value="1"><a href="#">＋</a>
           </div>
         </div>
         <div class="commodity-delete">
@@ -123,7 +125,8 @@
       <div class="comm-con">
         <div class="check">
           <a href="#">
-            <img src="../assets/images/check-gray.png" alt="" style="display: none;"><img src="../assets/images/checked.png" alt="">
+            <img src="../assets/images/check-gray.png" alt="" style="display: none;"/>
+            <img src="../assets/images/checked.png" alt=""/>
           </a>
         </div>
         <div class="commodity-banner">
@@ -142,9 +145,7 @@
             <span>¥5599.00</span>
           </div>
           <div class="commodity-num">
-            <a href="#">－</a>
-            <input type="text" value="1">
-            <a href="#">＋</a>
+            <a href="#">－</a><input type="text" value="1"><a href="#">＋</a>
           </div>
         </div>
         <div class="commodity-delete">
@@ -208,6 +209,6 @@
   }
 </script>
 
-<style>
+<style lang="less" scoped>
   @import '../css/cart.css';
 </style>

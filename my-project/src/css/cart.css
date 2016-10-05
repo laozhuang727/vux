@@ -16,7 +16,7 @@
 .commodity-style span{color: #666;}
 .commodity-prize span{color: #666;}
 .commodity-num{width: 90px;height: 24px;border-bottom: 1px solid #dcdcdc;border-top: 1px solid #dcdcdc;margin-top: .4rem;}
-.commodity-num a{text-align: center;line-height: 24px;height: 24px;width: 29px;display: block;float: left;border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;color:#666;font-size: 18px;}
+.commodity-num a{text-align: center;line-height: 24px;height: 24px;width: 24px;display: block;float: left;border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;color:#666;font-size: 18px;}
 .commodity-num input{text-align: center;line-height: 22px;height: 22px;width: 28px;color: #666;float: left;border:none;font-size: 14px;}
 .commodity-delete{position: absolute;right: 1rem;top: 55%;}
 .commodity-delete a{display: block;}
