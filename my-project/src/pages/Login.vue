@@ -87,6 +87,8 @@
   @import '../css/common.css';
 </style>
 <script>
+  import {go} from '../libs/router'
+
   export default{
     data () {
       return {
@@ -139,6 +141,7 @@
               this.loginSuccess = true
               sessionStorage.setItem('accessToken', body.access_token)
               sessionStorage.setItem('userName', this.loginModel.username)
+              go('/', this.$router)
             }, function (response) {
               sessionStorage.setItem('accessToken', '')
               this.loginFailed = true

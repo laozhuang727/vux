@@ -10,7 +10,7 @@
             <input type="text" placeholder="搜索...">
             <img src="../assets/images/icon-search.png" alt="">
           </div>
-          <div class="index-login" v-if="isLogon">
+          <div class="index-login" v-if="needLogon">
             <a href="javascript:;" @click="navTo('/login')">登录</a>
           </div>
         </div>
@@ -281,8 +281,9 @@
     },
     computed: {
       // 仅读取，值只须为函数
-      isLogon: function () {
-        return sessionStorage.getItem('accessToken') === ''
+      needLogon: function () {
+        var accessToken = sessionStorage.getItem('accessToken')
+        return accessToken == null || accessToken === ''
       }
     },
     methods: {
