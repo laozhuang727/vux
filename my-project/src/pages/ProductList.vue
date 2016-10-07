@@ -15,6 +15,7 @@
       </div>
     </header>
     <!-- 头部 -->
+
     <div class="shop-mes">
       <div class="lef">
         <span><img src="../assets/images/shop-img.png" alt=""></span>
@@ -59,86 +60,33 @@
       <div class="bot"><a href="#">更多</a></div>
     </div>
     <!-- 首页商品列表 -->
+
     <div class="shop-nav">
-      <ul>
-        <li class="shop-nav-on">
-          <a href="#">
-            人气
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            销量
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            价格
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            新品
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="shop-list">
-      <a href="#">
-        <div class="shop-com-img">
-          <img src="../assets/images/commodity01.jpg" alt="">
-        </div>
-        <div class="shop-com-int">
-          <p>联想台式电脑 i5处理器 4G内存 500G硬盘 2G独显 送U盘</p>
-          <div class="shop-com-prize">
-            <span>¥3639.00</span>
-            <p><em>0.0%好评</em>(0)人评论</p>
+      <tab :line-width=2 active-color='#fc378c' :index.sync="index">
+        <tab-item class="vux-center" :selected="demo2 === item" v-for="item in orderByTypeList" @click="demo2 = item">
+          {{item}}
+        </tab-item>
+      </tab>
+      <swiper :index.sync="index" height="1050px" :show-dots="false">
+        <swiper-item v-for="item in orderByTypeList">
+          <div class="shop-list" v-for="productByOrder in pageData.orderByProducts">
+            <a href="#">
+              <div class="shop-com-img">
+                <img :src="loadStaticImg(productByOrder.icon)" alt="">
+              </div>
+              <div class="shop-com-int">
+                <p>{{productByOrder.name}}</p>
+                <div class="shop-com-prize">
+                  <span>¥{{productByOrder.salePrice}}</span>
+                  <p><em>{{productByOrder.goodRemark}}%好评</em>({{productByOrder.commentCount}})人评论</p>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </a>
+        </swiper-item>
+      </swiper>
     </div>
-    <div class="shop-list">
-      <a href="#">
-        <div class="shop-com-img">
-          <img src="../assets/images/commodity01.jpg" alt="">
-        </div>
-        <div class="shop-com-int">
-          <p>联想台式电脑 i5处理器 4G内存 500G硬盘 2G独显 送U盘</p>
-          <div class="shop-com-prize">
-            <span>¥3639.00</span>
-            <p><em>0.0%好评</em>(0)人评论</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="shop-list">
-      <a href="#">
-        <div class="shop-com-img">
-          <img src="../assets/images/commodity01.jpg" alt="">
-        </div>
-        <div class="shop-com-int">
-          <p>联想台式电脑 i5处理器 4G内存 500G硬盘 2G独显 送U盘</p>
-          <div class="shop-com-prize">
-            <span>¥3639.00</span>
-            <p><em>0.0%好评</em>(0)人评论</p>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="shop-list">
-      <a href="#">
-        <div class="shop-com-img">
-          <img src="../assets/images/commodity01.jpg" alt="">
-        </div>
-        <div class="shop-com-int">
-          <p>联想台式电脑 i5处理器 4G内存 500G硬盘 2G独显 送U盘</p>
-          <div class="shop-com-prize">
-            <span>¥3639.00</span>
-            <p><em>0.0%好评</em>(0)人评论</p>
-          </div>
-        </div>
-      </a>
-    </div>
+
     <!-- 其他页面商品列表 -->
   </div>
 </template>
@@ -147,16 +95,36 @@
   @import '../css/common.css';
 </style>
 <script>
+  import Tab from 'vux/dist/components/tab'
+  import TabItem from 'vux/dist/components/tab-item'
+  import Sticky from 'vux/dist/components/sticky'
+  import Divider from 'vux/dist/components/divider'
+  import XButton from 'vux/dist/components/x-button'
+  import Swiper from 'vux/dist/components/swiper'
+  import SwiperItem from 'vux/dist/components/swiper-item'
+
   export default{
+    components: {
+      Tab,
+      TabItem,
+      Sticky,
+      Divider,
+      XButton,
+      Swiper,
+      SwiperItem
+    },
     data () {
       return {
+        index: 1,
+        demo2: '人气',
+        orderByTypeList: ['人气', '销量', '价格', '新品'],
         pageData: {
           hotSaleProducts: [],
           orderByProducts: [],
           orderBy: ''
         },
         productListUrl: 'api/products',
-        orderByProductListUrl: 'api/products/orderBy'
+        orderByProductListUrl: 'api/products'
       }
     },
     ready: function () {
@@ -174,9 +142,7 @@
               vm.$set('pageData.hotSaleProducts', response.data)
               console.log(response)
 
-//              if (vm.pageData.firstLevelCategories.length > 0) {
-//                this.getSecondLevelCategories(vm.pageData.firstLevelCategories[0])
-//              }
+              this.loadOrderByProducts('salePrice,asc')
             })
       },
       loadOrderByProducts: function (orderBy) {
@@ -184,7 +150,7 @@
 
         vm.pageData.orderByProducts = []
 
-        vm.$http.get(vm.orderByProductListUrl, {params: {sort: orderBy}})
+        vm.$http.get(vm.orderByProductListUrl, {params: {sort: orderBy, page: 0, size: 4}})
             .then(function (response) {
               vm.$set('pageData.orderByProducts', response.data)
               console.log(response)
