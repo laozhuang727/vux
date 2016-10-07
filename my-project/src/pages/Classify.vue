@@ -63,9 +63,12 @@
           selectedSecondLevelCategory: '',
           selectedThirdLevelCategory: ''
         },
-        apiFirstLevelUrl: 'http://localhost:8080/api/categories/firstLevelCategories',
-        apiSecondLevelUrl: 'http://localhost:8080/api/categories/subCategories',
-        apiThirdLevelUrl: 'http://localhost:8080/api/categories/subCategories',
+//        apiFirstLevelUrl: 'http://192.168.1.101:8080/api/categories/firstLevelCategories',
+//        apiSecondLevelUrl: 'http://192.168.1.101:8080/api/categories/subCategories',
+//        apiThirdLevelUrl: 'http://192.168.1.101:8080/api/categories/subCategories',
+        apiFirstLevelUrl: 'api/categories/firstLevelCategories',
+        apiSecondLevelUrl: 'api/categories/subCategories',
+        apiThirdLevelUrl: 'api/categories/subCategories',
         loadingTips: {
           showLoading: false,
           showDialog: false

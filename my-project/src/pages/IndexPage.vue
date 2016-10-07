@@ -10,7 +10,7 @@
             <input type="text" placeholder="搜索...">
             <img src="../assets/images/icon-search.png" alt="">
           </div>
-          <div class="index-login">
+          <div class="index-login" v-if="isLogon">
             <a href="javascript:;" @click="onClick('/login')">登录</a>
           </div>
         </div>
@@ -258,7 +258,7 @@
   import Flexbox from 'vux/dist/components/flexbox'
   import FlexboxItem from 'vux/dist/components/flexbox-item'
   import Divider from 'vux/dist/components/divider'
-  import { go } from '../libs/router'
+  import {go} from '../libs/router'
 
   const version = require('../../package.json').version
   export default {
@@ -274,9 +274,15 @@
       return {
         version: version,
         items: [
-          { message: 'Foo' },
-          { message: 'Bar' }
+          {message: 'Foo'},
+          {message: 'Bar'}
         ]
+      }
+    },
+    computed: {
+      // 仅读取，值只须为函数
+      isLogon: function () {
+        return sessionStorage.getItem('accessToken') === ''
       }
     },
     methods: {
@@ -289,7 +295,6 @@
 
 <style lang="less">
   @import '../css/index.css';
-
 
 
 </style>
