@@ -11,6 +11,7 @@ import ShoppingCart from './pages/ShoppingCart'
 import Classify from './pages/Classify'
 import UserCernter from './pages/UserCernter'
 import Login from './pages/Login'
+import ProductList from './pages/ProductList'
 
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
@@ -91,6 +92,9 @@ router.map({
   },
   '/component/simpleGridDemo': {
     component: SimpleGridDemo
+  },
+  '/productList': {
+    component: ProductList
   },
   '/login': {
     component: Login

@@ -11,7 +11,7 @@
             <img src="../assets/images/icon-search.png" alt="">
           </div>
           <div class="index-login" v-if="isLogon">
-            <a href="javascript:;" @click="onClick('/login')">登录</a>
+            <a href="javascript:;" @click="navTo('/login')">登录</a>
           </div>
         </div>
       </header>
@@ -25,7 +25,7 @@
       <div class="index-nav">
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-com-pro.png" alt="">
             </a>
           </dt>
@@ -286,7 +286,7 @@
       }
     },
     methods: {
-      onClick (link) {
+      navTo (link) {
         go(link, this.$router)
       }
     }
