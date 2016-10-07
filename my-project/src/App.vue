@@ -32,9 +32,9 @@
           <span slot="label"><span v-if="componentName" class="vux-demo-tabbar-component">{{componentName}}</span><span v-else>购物车</span></span>
         </tabbar-item>
 
-        <tabbar-item v-link="{path:'/demo'}" :selected="isDemo" badge="9">
-          <img v-if="isDemo" slot="icon" src="assets/images/icon-my-red.png">
-          <img v-if="!isDemo" slot="icon" src="assets/images/icon-my.png">
+        <tabbar-item v-link="{path:'/userCernter'}" :selected="isDemo" badge="9">
+          <img v-if="route.path === '/userCernter'" slot="icon" src="assets/images/icon-my-red.png">
+          <img v-if="route.path !== '/userCernter'" slot="icon" src="assets/images/icon-my.png">
           <span slot="label">我的</span>
         </tabbar-item>
 
@@ -143,7 +143,6 @@
   /*@import 'styles/index.less';*/
   /*@import './styles/weui/base/reset';*/
   @import '~vux/dist/vux.css';
-  @import './css/common.css';
 
   html, body {
     height: 100%;

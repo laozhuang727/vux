@@ -126,4 +126,5 @@
 
 <style lang="less" scoped>
   @import '../css/classify.css';
+  @import '../css/common.css';
 </style>

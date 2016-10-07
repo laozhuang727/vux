@@ -8,7 +8,9 @@ import Search from './pages/Search'
 import SimpleGridDemo from './pages/SimpleGridDemo'
 import Flexbox from './pages/Flexbox'
 import ShoppingCart from './pages/ShoppingCart'
-import Classify from './pages/Classify.vue'
+import Classify from './pages/Classify'
+import UserCernter from './pages/UserCernter'
+import Login from './pages/Login'
 
 const FastClick = require('fastclick')
 FastClick.attach(document.body)
@@ -16,6 +18,8 @@ FastClick.attach(document.body)
 Vue.use(Router)
 Vue.use(VueResource)
 Vue.config.devtools = true
+// 全局启用 OPTIONS预请求
+Vue.http.options.emulateJSON = true
 
 const router = new Router({
   transitionOnLoad: false
@@ -75,6 +79,9 @@ router.map({
   '/classify': {
     component: Classify
   },
+  '/userCernter': {
+    component: UserCernter
+  },
   '/component/flexbox': {
     component: Flexbox
   },
@@ -83,6 +90,9 @@ router.map({
   },
   '/component/simpleGridDemo': {
     component: SimpleGridDemo
+  },
+  '/login': {
+    component: Login
   }
 })
 

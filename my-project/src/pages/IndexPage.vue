@@ -11,7 +11,7 @@
             <img src="../assets/images/icon-search.png" alt="">
           </div>
           <div class="index-login">
-            <a href="/html/login.html">登录</a>
+            <a href="javascript:;" @click="onClick('/login')">登录</a>
           </div>
         </div>
       </header>
@@ -258,6 +258,7 @@
   import Flexbox from 'vux/dist/components/flexbox'
   import FlexboxItem from 'vux/dist/components/flexbox-item'
   import Divider from 'vux/dist/components/divider'
+  import { go } from '../libs/router'
 
   const version = require('../../package.json').version
   export default {
@@ -276,6 +277,11 @@
           { message: 'Foo' },
           { message: 'Bar' }
         ]
+      }
+    },
+    methods: {
+      onClick (link) {
+        go(link, this.$router)
       }
     }
   }

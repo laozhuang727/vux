@@ -211,4 +211,5 @@
 
 <style lang="less" scoped>
   @import '../css/cart.css';
+  @import '../css/common.css';
 </style>
