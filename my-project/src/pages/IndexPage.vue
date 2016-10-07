@@ -17,7 +17,7 @@
       </header>
       <!-- 顶部 -->
       <div class="banner">
-        <a href="#">
+        <a href="javascript:;" @click="navTo('/productList')">
           <img src="../assets/images/index-banner01.jpg" alt="">
         </a>
       </div>
@@ -30,77 +30,77 @@
             </a>
           </dt>
           <dd>
-            <a href="#">精品</a>
+            <a href="javascript:;" @click="navTo('/productList')">精品</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-hot-sal.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">热卖</a>
+            <a href="javascript:;" @click="navTo('/productList')">热卖</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-sal-pro.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">促销</a>
+            <a href="javascript:;" @click="navTo('/productList')">促销</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-gro-buy.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">团购</a>
+            <a href="javascript:;" @click="navTo('/productList')">团购</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-points.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">积分</a>
+            <a href="javascript:;" @click="navTo('/productList')">积分</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-trial.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">试用</a>
+            <a href="javascript:;" @click="navTo('/productList')">试用</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-category.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">类目</a>
+            <a href="javascript:;" @click="navTo('/productList')">类目</a>
           </dd>
         </dl>
         <dl>
           <dt>
-            <a href="#">
+            <a href="javascript:;" @click="navTo('/productList')">
               <img src="../assets/images/icon-brand.png" alt="">
             </a>
           </dt>
           <dd>
-            <a href="#">品牌</a>
+            <a href="javascript:;" @click="navTo('/productList')">品牌</a>
           </dd>
         </dl>
       </div>
@@ -108,12 +108,12 @@
       <div class="hot-sale">
         <div class="hot-sale-title">
           <span>热卖推荐</span>
-          <a href="#">更多>></a>
+          <a href="javascript:;" @click="navTo('/productList')">更多>></a>
         </div>
         <div class="hot-sale-con">
           <dl>
             <dt>
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/hot-sale-banner01.jpg" alt="">
               </a>
             </dt>
@@ -123,7 +123,7 @@
           </dl>
           <dl>
             <dt>
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/hot-sale-banner02.jpg" alt="">
               </a>
             </dt>
@@ -133,7 +133,7 @@
           </dl>
           <dl>
             <dt>
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/hot-sale-banner03.jpg" alt="">
               </a>
             </dt>
@@ -143,7 +143,7 @@
           </dl>
           <dl>
             <dt>
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/hot-sale-banner04.jpg" alt="">
               </a>
             </dt>
@@ -155,7 +155,7 @@
       </div>
       <!-- 热卖推荐 -->
       <div class="guanggao">
-        <a href="#">
+        <a href="javascript:;" @click="navTo('/productList')">
           <img src="../assets/images/guanggao.jpg" alt="">
         </a>
       </div>
@@ -163,22 +163,22 @@
       <div class="activity">
         <div class="activity-title">
           <span>商家活动</span>
-          <a href="#">更多>></a>
+          <a href="javascript:;" @click="navTo('/productList')">更多>></a>
         </div>
         <div class="activite-left">
-          <a href="#">
+          <a href="javascript:;" @click="navTo('/productList')">
             <img src="../assets/images/activity-banner01.jpg" alt="">
           </a>
         </div>
         <div class="activite-right">
           <ul>
             <li class="activite-right-up">
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/activity-banner02.jpg" alt="">
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/activity-banner03.jpg" alt="">
               </a>
             </li>
@@ -189,24 +189,24 @@
       <div class="new">
         <div class="new-title">
           <span>商家上新</span>
-          <a href="#">更多>></a>
+          <a href="javascript:;" @click="navTo('/productList')">更多>></a>
         </div>
         <div class="new-left">
           <ul>
             <li class="new-left-up">
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/new-banner01.jpg" alt="">
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/new-banner02.jpg" alt="">
               </a>
             </li>
           </ul>
         </div>
         <div class="new-right">
-          <a href="#">
+          <a href="javascript:;" @click="navTo('/productList')">
             <img src="../assets/images/new-banner03.jpg" alt="">
           </a>
         </div>
@@ -215,12 +215,12 @@
       <div class="themes">
         <div class="themes-title">
           <span>主题馆</span>
-          <a href="#">更多>></a>
+          <a href="javascript:;" @click="navTo('/productList')">更多>></a>
         </div>
         <div class="themes-con">
           <ul>
             <li v-for="item in items">
-              <a href="#">
+              <a href="javascript:;" @click="navTo('/productList')">
                 <img src="../assets/images/themes-banner01.jpg" alt="">
               </a>
             </li>

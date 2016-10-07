@@ -63,7 +63,8 @@
 
     <div class="shop-nav">
       <tab :line-width=2 active-color='#fc378c' :index.sync="index">
-        <tab-item class="vux-center" :selected="demo2 === item" v-for="item in orderByTypeList" @click="demo2 = item">
+        <tab-item class="vux-center" :selected="selectedItem === item" v-for="item in orderByTypeList"
+                  @click="switchSwiper(item)">
           {{item}}
         </tab-item>
       </tab>
@@ -78,6 +79,7 @@
                 <p>{{productByOrder.name}}</p>
                 <div class="shop-com-prize">
                   <span>¥{{productByOrder.salePrice}}</span>
+                  <em></em>本月已售{{productByOrder.saleCount}}件</em>
                   <p><em>{{productByOrder.goodRemark}}%好评</em>({{productByOrder.commentCount}})人评论</p>
                 </div>
               </div>
@@ -116,7 +118,7 @@
     data () {
       return {
         index: 1,
-        demo2: '人气',
+        selectedItem: '人气',
         orderByTypeList: ['人气', '销量', '价格', '新品'],
         pageData: {
           hotSaleProducts: [],
@@ -142,7 +144,7 @@
               vm.$set('pageData.hotSaleProducts', response.data)
               console.log(response)
 
-              this.loadOrderByProducts('salePrice,asc')
+              this.loadOrderByProducts('commentCount,desc')
             })
       },
       loadOrderByProducts: function (orderBy) {
@@ -155,6 +157,18 @@
               vm.$set('pageData.orderByProducts', response.data)
               console.log(response)
             })
+      },
+      switchSwiper: function (item) {
+        this.selectedItem = item
+        if (item === '人气') {
+          this.loadOrderByProducts('commentCount,desc')
+        } else if (item === '销量') {
+          this.loadOrderByProducts('saleCount,desc')
+        } else if (item === '价格') {
+          this.loadOrderByProducts('salePrice,asc')
+        } else if (item === '新品') {
+          this.loadOrderByProducts('isNew,desc')
+        }
       }
     }
   }
