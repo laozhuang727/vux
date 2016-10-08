@@ -65,9 +65,9 @@
 <script>
   import store from './vuex/store'
   import { Tabbar, TabbarItem } from './components/tabbar'
-  import Loading from 'vux/dist/components/Loading'
-  import ViewBox from 'vux/dist/components/View-Box'
-  import XHeader from 'vux/dist/components/X-Header'
+  import Loading from 'vux/dist/components/loading'
+  import ViewBox from 'vux/dist/components/view-box'
+  import XHeader from 'vux/dist/components/x-header'
   import Search from 'vux/dist/components/search'
   import Flexbox from 'vux/dist/components/flexbox'
   import FlexboxItem from 'vux/dist/components/flexbox-item'

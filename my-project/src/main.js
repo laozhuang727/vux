@@ -21,7 +21,7 @@ Vue.use(VueResource)
 Vue.config.devtools = true
 // 全局启用 OPTIONS预请求
 Vue.http.options.emulateJSON = true
-Vue.http.options.root = 'http://192.168.1.101:8080'
+Vue.http.options.root = 'http://120.24.239.135:8080'
 
 const router = new Router({
   transitionOnLoad: false

@@ -17,7 +17,7 @@
 <script>
 import { childMixin } from '../../mixins/multi-items'
 import { go } from '../../libs/router'
-import Badge from 'vux/dist/components/Badge'
+import Badge from 'vux/dist/components/badge'
 
 export default {
   components: {

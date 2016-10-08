@@ -254,7 +254,7 @@
 <script>
   import Group from 'vux/dist/components/group'
   import Cell from 'vux/dist/components/cell'
-  import Badge from 'vux/dist/components/Badge'
+  import Badge from 'vux/dist/components/badge'
   import Flexbox from 'vux/dist/components/flexbox'
   import FlexboxItem from 'vux/dist/components/flexbox-item'
   import Divider from 'vux/dist/components/divider'
